@@ -51,6 +51,7 @@
         android:label="Cabi"
         android:largeHeap="true"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Mymaterialact" >
         <uses-library android:name="com.google.android.maps" />
 

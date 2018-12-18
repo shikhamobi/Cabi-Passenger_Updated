@@ -93,6 +93,8 @@ import static com.cabipassenger.MainActivity.mgpsDialog;
  * Created by developer on 30/6/17.
  */
 
+// Code push for testing
+
 public class SplashActivity extends AppCompatActivity {
     private static boolean CORE_CALLED;
     public static String CURRENT_COUNTRY_CODE = "SAU";
