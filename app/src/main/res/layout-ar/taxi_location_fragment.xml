@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/header">
+
+        <ImageView
+            android:id="@+id/header_titleTxt"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="3dp"
+
+            android:textColor="@color/header_text" />
+
+        <ImageView
+            android:id="@+id/back_icon"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="start|center_vertical"
+            android:layout_alignParentRight="true"
+
+            android:rotation="180"
+            android:src="@drawable/back"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="visible"
+        android:foreground="@drawable/background_shadow">
+        <!-- YOUR STUFF HERE -->
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/taxi__container_margin">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/taxi__container_margin"
+            android:layout_marginTop="@dimen/taxi__container_margin"
+            android:background="@drawable/taxi__container"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/taxi__locationsearch_imagebutton_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right|center"
+                    android:background="@null"
+                    android:contentDescription="@string/taxi__empty"
+                    android:paddingLeft="@dimen/taxi__search_padding_large"
+                    android:paddingRight="@dimen/taxi__search_padding_large"
+                    android:src="@drawable/close"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/taxi__locationsearch_edittext_search"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="right"
+                    tools:text="sss"
+                    android:hint="sasa"
+                    android:ellipsize="none"
+                    android:textColorHint="@color/black"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textNoSuggestions"
+                    android:paddingBottom="@dimen/taxi__search_padding_medium"
+                    android:paddingTop="@dimen/taxi__search_padding_medium"
+                    android:textSize="16sp"
+                    android:saveEnabled="false"
+                    android:singleLine="true" />
+
+                <com.cabipassenger.features.LocationSearchIconView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:padding="@dimen/taxi__search_padding_medium"
+                    android:src="@drawable/search" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/taxi__search_padding_large"
+                android:paddingRight="@dimen/taxi__search_padding_large"
+                android:text="@string/skip"
+                android:textAllCaps="true"
+                android:textColor="@color/textviewcolor_light"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/taxi__locationsearch_viewgroup_content"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/taxi_fare_rectbg"
+            android:orientation="vertical"
+          >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/taxi__locationsearch_listview_locations"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:visibility="gone"
+                android:dividerHeight="0.0dip"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50.0dip"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/taxi__empty"
+                android:visibility="invisible"
+                android:src="@drawable/plus1" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/taxi__search_padding_large"
+                android:textColor="@color/textviewcolor_light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

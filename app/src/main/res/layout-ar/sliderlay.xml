@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/home_drawer_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/menu_me"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/home_drawer_head_bg"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="10dp">
+                    <com.cabipassenger.util.RoundedImageView
+                        android:id="@+id/menu_profile_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profileimage" />
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="05dp"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/menu_profile_name"
+                        style="@style/buttonTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/menu"
+                        android:gravity="right"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_slide_name" />
+
+                        <TextView
+                            android:id="@+id/menu_pno"
+                            style="@style/buttonTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/menu"
+                            android:gravity="right"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_slide_name" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:visibility="gone"
+                    android:background="@color/linebottom_dark" />
+
+                <LinearLayout
+                    android:id="@+id/menu_gettaxi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/listtab"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:visibility="gone"
+                    android:padding="5dip">
+
+
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_gettaxi"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/trackmytaxi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_history"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dip">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/my_bookings" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+
+                        android:text="@string/menu_mybooking"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_payment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip">
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/payment_options" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_payment"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_promo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/promo" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/promo_code"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_wallet"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/wallet" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/wallet"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/listtab"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip"
+                    android:visibility="gone">
+
+
+
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/menu_profile"
+                        android:textColor="@color/white" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/menu_mefocus" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_favourites"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/favourites" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_favourites"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_fare"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip">
+
+
+
+
+                    <ImageView
+                        android:id="@+id/menu_fare_image"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/fare" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_fare"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_invite"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip"
+                    android:visibility="visible">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/invite_friends" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/invite_friend"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_header"
+                    android:gravity="center_vertical"
+                    android:padding="5dip"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/menu_gettaxi"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/settings" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_settings"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/menu_support"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:visibility="gone"
+                    android:padding="5dip">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/settings" />
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_support"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/menu_about"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip">
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/about" />
+
+                    <TextView
+                        style="@style/slidemenuTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_about"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/listtab"
+                    android:gravity="center_vertical"
+                    android:onClick="ClickMethod"
+                    android:padding="5dip"
+                    android:visibility="gone">
+
+
+                    <Button
+                        android:id="@+id/menu_logout"
+                        style="@style/slidemenuTxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/logoutimg"
+                        android:layout_weight="3"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:onClick="ClickMethod"
+                        android:paddingLeft="10dp"
+                        android:text="@string/menu_logout"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:id="@+id/logoutimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="7dip"
+                        android:src="@drawable/logout" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:paddingBottom="30dp">
+
+                <Button
+                    android:id="@+id/book_taxi"
+                    style="@style/slidemenuTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/cancelbtntxtcolor"
+                    android:onClick="ClickMethod"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="@string/book_a_taxi"
+                    android:textAllCaps="false"
+                    android:textColor="@drawable/text_color_black_to_white" />
+
+                <!-- <Button
+                     android:id="@+id/menu_logout"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@null"
+                     android:onClick="ClickMethod"
+                     android:paddingBottom="5dp"
+                     android:paddingLeft="30dp"
+                     android:paddingRight="30dp"
+                     android:paddingTop="5dp"
+          -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

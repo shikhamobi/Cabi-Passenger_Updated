@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/header_bgcolor"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frame_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/include_headler" />
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/editfavimg_lay" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical" -->
+        <!-- android:gravity="center_vertical|right" -->
+        <!-- android:padding="8dip" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/editFavImg" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/edit" /> -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/addFavImg" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:background="@drawable/add" /> -->
+        <!-- </LinearLayout> -->
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/fav_lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/include_list" />
+
+        <TextView
+            android:id="@+id/nodataTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:visibility="gone" />
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/giff"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</LinearLayout>

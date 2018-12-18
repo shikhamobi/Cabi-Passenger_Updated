@@ -1,0 +1,39 @@
+<resources>
+
+
+    <dimen name="circle_indicator_radius">3dp</dimen>
+    <dimen name="circle_indicator_radius_search">3dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="taxi__search_padding_medium">8dp</dimen>
+    <dimen name="taxi__container_margin">6dp</dimen>
+    <dimen name="taxi__search_padding_large">20dp</dimen>
+    <dimen name="taxi__button_height">48dp</dimen>
+    <!--26-->
+    <dimen name="text_normal">17sp</dimen>
+    <!--32-->
+    <dimen name="text_large">22dp</dimen>
+    <!--42-->
+    <dimen name="text_elarge">32dp</dimen>
+    <!--16-->
+    <dimen name="tool_bar">56dp</dimen>
+
+    <!--28-->
+    <dimen name="text_slide_name">19sp</dimen>
+
+    <dimen name="text_slide_pno">16sp</dimen>
+    <!--24-->
+    <!--26-->
+    <dimen name="text_dialog_normal">17sp</dimen>
+    <!--20-->
+    <dimen name="text_dialog_small">13sp</dimen>
+    <!--32-->
+    <!--20-->
+    <!--24-->
+
+    <dimen name="pick_up_header">10sp</dimen>
+
+    <dimen name="fare_details_header">18sp</dimen>
+
+    <dimen name="fare_details_item">16sp</dimen>
+
+</resources>

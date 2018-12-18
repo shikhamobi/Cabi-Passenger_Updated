@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/button_acceptnew"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            style="@android:style/TextAppearance.Medium"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Customer Support"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_support_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="3dp"
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@color/button_reject"
+        android:layout_gravity="center"
+        android:text="EMAIL "/>
+    <TextView
+        android:id="@+id/tv_support_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_margin="10dp"
+
+        style="@android:style/TextAppearance.Medium"
+        android:textColor="@color/button_reject"
+        android:layout_gravity="center"
+        android:text="CALL "/>
+    <TextView
+        android:id="@+id/tv_support_whatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_margin="10dp" style="@android:style/TextAppearance.Medium"
+        android:textColor="@color/button_reject"
+        android:layout_gravity="center"
+        android:text="WHATSAPP"/>
+
+</LinearLayout>
+
+</LinearLayout>

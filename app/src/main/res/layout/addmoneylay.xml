@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardroot_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header_bgcolor"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_headler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/header_bgcolor"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/header_bgcolor"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/paypalTxt"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:drawableLeft="@drawable/mon_paypal"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/addmoney_paypal"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/pay_carddetaillay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="05dp"
+                        android:paddingRight="05dp"
+                        android:paddingTop="10dp">
+
+                        <EditText
+                            android:id="@+id/pay_cardnumEdt"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:gravity="left"
+                            android:hint="@string/reg_cardnumber"
+                            android:inputType="phone"
+                            android:maxLength="20"
+                            android:padding="10dp"
+                            android:textColor="@color/edittextcolor"
+                            android:textColorHint="@color/hintcolor" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:padding="2dp">
+
+                                <Spinner
+                                    android:id="@+id/pay_monthspn"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:padding="2dp">
+
+                                <Spinner
+                                    android:id="@+id/pay_yearspn"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white" />
+                            </RelativeLayout>
+
+                            <EditText
+                                android:id="@+id/pay_cvvEdt"
+                                style="@style/enterTxt"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:gravity="left"
+                                android:hint="@string/reg_cc"
+                                android:inputType="textPassword|number"
+                                android:maxLength="4"
+                                android:padding="10dp"
+                                android:textColor="@color/edittextcolor"
+                                android:textColorHint="@color/hintcolor" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/pay_cardnameEdt"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:gravity="left"
+                            android:hint="@string/reg_cardname"
+                            android:imeOptions="actionDone"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/edittextcolor"
+                            android:textColorHint="@color/hintcolor"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/pay_isDefaultChk"
+                                style="@style/enterTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/savecard_onoff"
+                                android:paddingLeft="5dp"
+                                android:text="@string/reg_savecard"
+                                android:textColor="@color/button_accept"
+                                android:visibility="gone" />
+
+                            <CheckBox
+                                android:id="@+id/pay_termsTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/savecard_onoff"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/button_accept" />
+
+                            <TextView
+                                android:id="@+id/pay_terms"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:paddingLeft="15dp"
+                                android:text="@string/reg_terms"
+                                android:textColor="@color/button_accept" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/pay_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="05dp"
+                        android:layout_marginRight="05dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/button_color"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/braintreeTxt"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:drawableLeft="@drawable/mon_braintree"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/right_arrow"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/addmoney_braintree"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/brain_carddetaillay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="05dp"
+                        android:paddingRight="05dp"
+                        android:paddingTop="10dp"
+                        android:visibility="visible">
+
+                        <EditText
+                            android:id="@+id/brain_cardnumEdt"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:gravity="left"
+                            android:hint="@string/reg_cardnumber"
+                            android:inputType="phone"
+                            android:maxLength="20"
+                            android:padding="10dp"
+                            android:textColor="@color/edittextcolor"
+                            android:textColorHint="@color/hintcolor" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:padding="2dp">
+
+                                <Spinner
+                                    android:id="@+id/brain_monthspn"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:padding="2dp">
+
+                                <Spinner
+                                    android:id="@+id/brain_yearspn"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent" />
+                            </RelativeLayout>
+
+                            <EditText
+                                android:id="@+id/brain_cvvEdt"
+                                style="@style/enterTxt"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/draw_edittext_bg"
+                                android:gravity="left"
+                                android:hint="@string/reg_cc"
+                                android:inputType="textPassword|number"
+                                android:maxLength="4"
+                                android:padding="10dp"
+                                android:textColor="@color/edittextcolor"
+                                android:textColorHint="@color/hintcolor" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/brain_cardnameEdt"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:gravity="left"
+                            android:hint="@string/reg_cardname"
+                            android:imeOptions="actionDone"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/edittextcolor"
+                            android:textColorHint="@color/hintcolor"
+                            android:visibility="visible" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/brain_isDefaultChk"
+                                style="@style/enterTxt"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/savecard_onoff"
+                                android:paddingLeft="5dp"
+                                android:text="@string/reg_savecard"
+                                android:textColor="@color/button_accept"
+                                android:visibility="gone" />
+
+                            <CheckBox
+                                android:id="@+id/brain_termsTxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/savecard_onoff"
+                                android:drawablePadding="5dp"
+                                android:paddingLeft="5dp"
+                                android:textColor="@color/button_accept" />
+
+                            <TextView
+                                android:id="@+id/brain_terms"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="5dp"
+                                android:text="@string/reg_terms"
+                                android:textColor="@color/button_accept" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/brain_submitBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="05dp"
+                        android:layout_marginRight="05dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/button_accept"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/submit"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/linebottom_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,897 @@
+-- Merging decision tree log ---
+application
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:42:5-221:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:11:5-20
+MERGED from [:aa] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/aa.aar/81155c117e8ca964d96a17ffdc0553e9/AndroidManifest.xml:11:5-14:19
+MERGED from [:aa] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/aa.aar/81155c117e8ca964d96a17ffdc0553e9/AndroidManifest.xml:11:5-14:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:design:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0bb9dd3640f7a7b0dc1cf08a771f8bee/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0bb9dd3640f7a7b0dc1cf08a771f8bee/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/732c1363e4b1406bdbaa16a2cae94bb0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/732c1363e4b1406bdbaa16a2cae94bb0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/3bc29f0448a0de7f587cc0968ab8a7ea/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/3bc29f0448a0de7f587cc0968ab8a7ea/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/2c742cc221c79a994442d8275c1b3637/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/2c742cc221c79a994442d8275c1b3637/AndroidManifest.xml:7:5-20
+MERGED from [com.github.traex.rippleeffect:library:1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/f65c21f6d0a4ccaaf501e29d3c055171/AndroidManifest.xml:12:5-20
+MERGED from [com.github.traex.rippleeffect:library:1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/f65c21f6d0a4ccaaf501e29d3c055171/AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/898bca62413c5728363a30668bc21a60/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/898bca62413c5728363a30668bc21a60/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/50b09dcca909ed1cff037413e1e2a1ea/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/50b09dcca909ed1cff037413e1e2a1ea/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/72552c13a7f2d856671010fa835564f3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/72552c13a7f2d856671010fa835564f3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9d2e8ab2fd5307bac2a5087d70312f89/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9d2e8ab2fd5307bac2a5087d70312f89/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a12aa9b779a4c58a5618a15886312cc1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a12aa9b779a4c58a5618a15886312cc1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/f450296251f5986ae39e7e961963f641/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/f450296251f5986ae39e7e961963f641/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/f2e120123a1ab82eab98ae88f53283b3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/f2e120123a1ab82eab98ae88f53283b3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/4da8217dd86ab854d09de42ade0396dc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/4da8217dd86ab854d09de42ade0396dc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/268a68cd097d3d1987ebd8e648c7ae25/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/268a68cd097d3d1987ebd8e648c7ae25/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/niftydialogeffects-1.0.0.aar/dcc31bdb18ebef1724a1967dbbd27418/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/niftydialogeffects-1.0.0.aar/dcc31bdb18ebef1724a1967dbbd27418/AndroidManifest.xml:11:5-12:19
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:14:5-24:19
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:14:5-24:19
+MERGED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2871aca976ef1df9b5fd4e192938b41f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2871aca976ef1df9b5fd4e192938b41f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:48:9-35
+	android:label
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:46:9-35
+		REJECTED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:17:9-41
+	tools:ignore
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:51:9-48
+	android:largeHeap
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:47:9-33
+	android:icon
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:45:9-45
+	android:allowBackup
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:44:9-35
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:49:9-45
+		REJECTED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:19:9-41
+	tools:replace
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:50:9-65
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:43:9-43
+		REJECTED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:15:9-59
+activity#com.cabipassenger.SplashActivity
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:58:9-68:20
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:61:13-49
+	android:label
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:60:13-39
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:62:13-51
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:59:13-43
+manifest
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+MERGED from [com.android.support:multidex:1.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/26ef66694f177283514994b544550b5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:2:1-13:12
+MERGED from [:aa] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/aa.aar/81155c117e8ca964d96a17ffdc0553e9/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.yalantis:ucrop:2.2.2] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/8d073a20114657405ee1360315af1cb7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:21:1-50:12
+MERGED from [com.android.support:design:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0bb9dd3640f7a7b0dc1cf08a771f8bee/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2462b9a0760bf078e415cc10c6558132/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/aab9865a82fa624af45d4d216f626a37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/732c1363e4b1406bdbaa16a2cae94bb0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/3bc29f0448a0de7f587cc0968ab8a7ea/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/2c742cc221c79a994442d8275c1b3637/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.traex.rippleeffect:library:1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/f65c21f6d0a4ccaaf501e29d3c055171/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/898bca62413c5728363a30668bc21a60/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/50b09dcca909ed1cff037413e1e2a1ea/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/72552c13a7f2d856671010fa835564f3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9d2e8ab2fd5307bac2a5087d70312f89/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a12aa9b779a4c58a5618a15886312cc1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/f450296251f5986ae39e7e961963f641/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/f2e120123a1ab82eab98ae88f53283b3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/4da8217dd86ab854d09de42ade0396dc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/268a68cd097d3d1987ebd8e648c7ae25/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/7e0133c3554803818a8100dd9568be37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9ddcf0e967872207a2a7dbdc9f3ed762/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/e919a10641a56d4b2442f174eff7d5ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/niftydialogeffects-1.0.0.aar/dcc31bdb18ebef1724a1967dbbd27418/AndroidManifest.xml:2:1-14:12
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bda919e0af66c44fb11a7786417462ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/34840dabdfb9ccce205b0b1d56cfc8f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/895c0a42b2ebb056fd4677467eb7165c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59df2db8696a1811f9e9f6b8f63f1665/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ac616b3e63e258b7e7b75d875929f04e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/21136d120c4af1305a21eb162bdbc070/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/691531a835e763b26676b27748d7d4c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8bf740d66e558fd59fa1bb6419c680a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aef2cd0b8ddfc484e25f4b7b68a681d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/eaa01fb77f20ced374597413505c5d51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/98cc2e0a44aeefc5c46f67515c49bdd5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5e50f4cd814afa6424a6ac731899e7e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7ed0d7a680314c50be5e900b65b49dda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2ece6e678b883c6c665d9bfaf7330b87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f81f1ac26872db83590270cb90b5c9a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7f850c5ca334f974cbd2938a44c8ac0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a455b99511989ac95accbfaba2c8426b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff2110c95d37634e57bb56af4987ba76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b5c79ea76df32095ff86d2dc7fc745fa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3f50dfc096a703b2b809f22c9d21078/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bfa2ba1ac2e0d58ae4325abd584d7599/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41bdfadfd84e403860081906b4092a2f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c128b75855a40acd5817c656be68b57/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/54781b96f258ace7489e5c8f7b71d118/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fa3afd8fb10751c064ed378d0c908ebc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2871aca976ef1df9b5fd4e192938b41f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:22:1-33:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:1-223:12
+	package
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:8:22-70
+uses-permission#com.cabi.permission.MAPS_RECEIVE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:9:5-72
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:9:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:22:5-79
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:12:5-79
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:23:5-67
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:10:5-67
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:10:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:13:5-15:23
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:16:5-76
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:11:5-76
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.CALL_PHONE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:21:5-69
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:21:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:23:22-72
+uses-permission#android.permission.GPS_ENABLED_CHANGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:24:22-74
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:26:5-72
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:26:22-69
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:28:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:28:22-79
+uses-permission#com.cabi.permission.C2D_MESSAGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:29:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:30:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:30:22-65
+uses-feature#android.hardware.location.gps
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:32:5-34:35
+	android:required
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:34:9-32
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:33:9-53
+uses-feature#0x00020000
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:36:5-38:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:37:9-41
+	android:required
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:38:9-32
+uses-sdk
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/26ef66694f177283514994b544550b5e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/26ef66694f177283514994b544550b5e/AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-2.6.8.aar/2b693b8f4aa1ad54ae67e4a2340ddc19/AndroidManifest.xml:7:5-43
+MERGED from [:aa] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/aa.aar/81155c117e8ca964d96a17ffdc0553e9/AndroidManifest.xml:7:5-9:41
+MERGED from [:aa] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/aa.aar/81155c117e8ca964d96a17ffdc0553e9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/8d073a20114657405ee1360315af1cb7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/8d073a20114657405ee1360315af1cb7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:design:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0bb9dd3640f7a7b0dc1cf08a771f8bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/0bb9dd3640f7a7b0dc1cf08a771f8bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2462b9a0760bf078e415cc10c6558132/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2462b9a0760bf078e415cc10c6558132/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/aab9865a82fa624af45d4d216f626a37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/aab9865a82fa624af45d4d216f626a37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/732c1363e4b1406bdbaa16a2cae94bb0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/732c1363e4b1406bdbaa16a2cae94bb0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/3bc29f0448a0de7f587cc0968ab8a7ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/3bc29f0448a0de7f587cc0968ab8a7ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/edfd1539b4dc446eddbcdd1a42178f26/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/2c742cc221c79a994442d8275c1b3637/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/2c742cc221c79a994442d8275c1b3637/AndroidManifest.xml:5:5-44
+MERGED from [com.github.traex.rippleeffect:library:1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/f65c21f6d0a4ccaaf501e29d3c055171/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.traex.rippleeffect:library:1.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/library-1.3.aar/f65c21f6d0a4ccaaf501e29d3c055171/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/898bca62413c5728363a30668bc21a60/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/898bca62413c5728363a30668bc21a60/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/50b09dcca909ed1cff037413e1e2a1ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/50b09dcca909ed1cff037413e1e2a1ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/72552c13a7f2d856671010fa835564f3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/72552c13a7f2d856671010fa835564f3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9d2e8ab2fd5307bac2a5087d70312f89/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9d2e8ab2fd5307bac2a5087d70312f89/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a12aa9b779a4c58a5618a15886312cc1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/a12aa9b779a4c58a5618a15886312cc1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/f450296251f5986ae39e7e961963f641/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/f450296251f5986ae39e7e961963f641/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/f2e120123a1ab82eab98ae88f53283b3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/f2e120123a1ab82eab98ae88f53283b3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/4da8217dd86ab854d09de42ade0396dc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/4da8217dd86ab854d09de42ade0396dc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/268a68cd097d3d1987ebd8e648c7ae25/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/268a68cd097d3d1987ebd8e648c7ae25/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/7e0133c3554803818a8100dd9568be37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/7e0133c3554803818a8100dd9568be37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9ddcf0e967872207a2a7dbdc9f3ed762/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9ddcf0e967872207a2a7dbdc9f3ed762/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/e919a10641a56d4b2442f174eff7d5ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/e919a10641a56d4b2442f174eff7d5ab/AndroidManifest.xml:20:5-44
+MERGED from [com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/niftydialogeffects-1.0.0.aar/dcc31bdb18ebef1724a1967dbbd27418/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sd6352051.niftydialogeffects:niftydialogeffects:1.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/niftydialogeffects-1.0.0.aar/dcc31bdb18ebef1724a1967dbbd27418/AndroidManifest.xml:7:5-9:41
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:8:5-44
+MERGED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:8:5-44
+MERGED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bda919e0af66c44fb11a7786417462ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/bda919e0af66c44fb11a7786417462ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/34840dabdfb9ccce205b0b1d56cfc8f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/34840dabdfb9ccce205b0b1d56cfc8f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/895c0a42b2ebb056fd4677467eb7165c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/895c0a42b2ebb056fd4677467eb7165c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59df2db8696a1811f9e9f6b8f63f1665/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/59df2db8696a1811f9e9f6b8f63f1665/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ac616b3e63e258b7e7b75d875929f04e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ac616b3e63e258b7e7b75d875929f04e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/21136d120c4af1305a21eb162bdbc070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/21136d120c4af1305a21eb162bdbc070/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/691531a835e763b26676b27748d7d4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/691531a835e763b26676b27748d7d4c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8bf740d66e558fd59fa1bb6419c680a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8bf740d66e558fd59fa1bb6419c680a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aef2cd0b8ddfc484e25f4b7b68a681d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/aef2cd0b8ddfc484e25f4b7b68a681d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/eaa01fb77f20ced374597413505c5d51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/eaa01fb77f20ced374597413505c5d51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/98cc2e0a44aeefc5c46f67515c49bdd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/98cc2e0a44aeefc5c46f67515c49bdd5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5e50f4cd814afa6424a6ac731899e7e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/5e50f4cd814afa6424a6ac731899e7e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7ed0d7a680314c50be5e900b65b49dda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7ed0d7a680314c50be5e900b65b49dda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2ece6e678b883c6c665d9bfaf7330b87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/2ece6e678b883c6c665d9bfaf7330b87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f81f1ac26872db83590270cb90b5c9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f81f1ac26872db83590270cb90b5c9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7f850c5ca334f974cbd2938a44c8ac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f7f850c5ca334f974cbd2938a44c8ac0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a455b99511989ac95accbfaba2c8426b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a455b99511989ac95accbfaba2c8426b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff2110c95d37634e57bb56af4987ba76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff2110c95d37634e57bb56af4987ba76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b5c79ea76df32095ff86d2dc7fc745fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/b5c79ea76df32095ff86d2dc7fc745fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3f50dfc096a703b2b809f22c9d21078/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3f50dfc096a703b2b809f22c9d21078/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bfa2ba1ac2e0d58ae4325abd584d7599/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bfa2ba1ac2e0d58ae4325abd584d7599/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41bdfadfd84e403860081906b4092a2f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41bdfadfd84e403860081906b4092a2f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c128b75855a40acd5817c656be68b57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5c128b75855a40acd5817c656be68b57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/54781b96f258ace7489e5c8f7b71d118/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/54781b96f258ace7489e5c8f7b71d118/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/a72c52d6e7f386e550db84418b1baccc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fa3afd8fb10751c064ed378d0c908ebc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fa3afd8fb10751c064ed378d0c908ebc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2871aca976ef1df9b5fd4e192938b41f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/2871aca976ef1df9b5fd4e192938b41f/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/beta-1.2.5.aar/1da76ccbc54c31145432815325f8a2c1/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.3.17.aar/f637b413c46f1d4d1a70f639a541ff70/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/answers-1.3.13.aar/2e6622ae4e03643740370c25e71ec000/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/fabric-1.3.17.aar/5e5c792a3f1637f1b424d1b5f49d1f19/AndroidManifest.xml:27:5-43
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+		INJECTED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml
+uses-library#com.google.android.maps
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:52:9-64
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:52:23-61
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:54:9-56:71
+	android:value
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:56:13-68
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:55:13-89
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:63:13-66:29
+action#android.intent.action.MAIN
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:65:27-74
+activity#com.cabipassenger.util.cropper.CropImageActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:69:9-71:54
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:71:13-51
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:70:13-59
+activity#com.cabipassenger.ReceiptAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:72:9-77:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:74:13-44
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:77:13-70
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:73:13-39
+activity#com.cabipassenger.MainHomeFragmentActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:79:9-86:41
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:82:13-49
+	android:supportsRtl
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:83:13-39
+	android:launchMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:81:13-44
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:85:13-70
+	tools:ignore
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:86:13-38
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:84:13-51
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:80:13-53
+activity#com.cabipassenger.LoginAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:87:9-90:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:89:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:90:13-70
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:88:13-37
+activity#com.cabipassenger.ContinousRequest
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:92:9-96:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:94:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:96:13-70
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:95:13-48
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:93:13-45
+activity#com.cabipassenger.RegisterAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:97:9-100:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:99:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:100:13-70
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:98:13-40
+activity#com.cabipassenger.TermsAndConditions
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:102:9-105:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:104:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:105:13-70
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:103:13-47
+activity#com.cabipassenger.TripDetailsAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:106:9-109:55
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:109:13-52
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:107:13-43
+activity#com.cabipassenger.UserHomeAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:111:9-114:63
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:113:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:114:13-60
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:112:13-40
+activity#com.cabipassenger.util.Paymentgetway
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:116:9-119:63
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:118:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:119:13-60
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:117:13-47
+activity#com.cabipassenger.util.Paymentgetwaywebview
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:121:9-124:63
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:123:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:124:13-60
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:122:13-54
+activity#com.cabipassenger.CardRegisterAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:127:9-130:73
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:130:13-70
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:128:13-44
+activity#com.cabipassenger.RegisterNewAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:131:9-134:76
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:133:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:134:13-73
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:132:13-43
+activity#com.cabipassenger.VerificationAct
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:135:9-138:58
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:138:13-55
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:136:13-44
+activity#com.cabipassenger.util.LocationSearchActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:140:9-143:58
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:142:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:143:13-55
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:141:13-56
+activity#com.cabipassenger.util.LocationSearchActivityNew
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:144:9-147:58
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:146:13-49
+	android:windowSoftInputMode
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:147:13-55
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:145:13-59
+service#com.cabipassenger.MyFirebaseInstanceIDService
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:150:9-154:19
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:150:18-61
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:151:13-153:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:152:17-80
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:152:25-77
+service#com.cabipassenger.service.FirebaseService
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:155:9-159:19
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:155:18-57
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:156:13-158:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:157:17-78
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:157:25-75
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:161:9-163:55
+	android:value
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:163:13-52
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:162:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:170:9-173:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:173:13-45
+	android:configChanges
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:172:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:171:13-57
+provider#com.facebook.FacebookContentProvider
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:176:9-179:39
+	android:authorities
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:178:13-91
+	android:exported
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:179:13-36
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:177:13-64
+receiver#com.cabipassenger.util.NetworkStatus
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:181:9-186:20
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:181:19-53
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:182:13-185:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:183:17-184:50
+	tools:ignore
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:184:21-47
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:183:25-76
+receiver#com.cabipassenger.util.GpsStatus
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:187:9-191:20
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:187:19-49
+intent-filter#action:name:android.location.PROVIDERS_CHANGED
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:188:13-190:29
+action#android.location.PROVIDERS_CHANGED
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:189:17-77
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:189:25-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:193:9-195:48
+	android:value
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:195:13-45
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:194:13-58
+service#com.cabipassenger.service.GetPassengerUpdate
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:201:9-63
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:201:18-60
+service#com.cabipassenger.service.AuthService
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:202:9-56
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:202:18-53
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:204:9-207:52
+	android:screenOrientation
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:206:13-49
+	android:theme
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:205:13-60
+meta-data#io.fabric.ApiKey
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:209:9-211:72
+	android:value
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:211:13-69
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:210:13-44
+activity#com.cabipassenger.SuccessTransationActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:217:9-63
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:217:19-60
+activity#com.cabipassenger.FailedTransationActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:218:9-62
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:218:19-59
+activity#com.cabipassenger.Paytest
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:219:9-45
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:219:19-42
+activity#com.cabipassenger.PaymentOptionSuccessTransationActivity
+ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:220:9-76
+	android:name
+		ADDED from /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/src/main/AndroidManifest.xml:220:19-73
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.23.0.aar/0b55b7e5bdd31234f05c0058eeddbada/AndroidManifest.xml:45:13-70
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/6166d3574451f25ae1aecfb1f1d7a1a4/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/73eb3cb0224d20d8218223fb2ac1140a/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/bc3534da38101d0f925b35bc266ff460/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/094a6cf42e9e5af94b082ee1fa4af300/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/8013c79291dcc535bec67c7989e63cb4/AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/3d50633b25cb2050a30913d81522416f/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/dd7bfaddfea8954ccd6add4a3fd5b418/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/c18dc98d3727f11456f0d467ff371642/AndroidManifest.xml:24:13-58
+activity#com.telr.mobile.sdk.activty.WebviewActivity
+ADDED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:20:9-23:40
+	android:noHistory
+		ADDED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:22:13-74
+	android:name
+		ADDED from [:telrlibrary-release] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/telrlibrary-release.aar/4e0dc9722e68c885306fbed62f54b75b/AndroidManifest.xml:21:13-71
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:customtabs:25.3.1] /home/mobiweb/.gradle/caches/transforms-1/files-1.1/customtabs-25.3.1.aar/7f74200d90677fc6082f6ac649a4d61c/AndroidManifest.xml:23:9-47

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardroot_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header_bgcolor"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_headler"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/detaillay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/header_bgcolor"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/creditcardTxt"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:drawableLeft="@drawable/left_arrow"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/credit_card"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/reg_creditcard"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:id="@+id/carddetail_lay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/cardnumEdt"
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/draw_edittext_bg"
+                        android:gravity="right"
+                        android:hint="@string/reg_cardnumber"
+                        android:inputType="phone"
+                        android:maxLength="20"
+                        android:padding="10dp"
+                        android:textColorHint="@color/hintcolor"
+                        android:textDirection="anyRtl" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/cvvEdt"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:gravity="right"
+                            android:hint="@string/reg_cc"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:padding="10dp"
+                            android:textColorHint="@color/hintcolor" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:padding="2dp">
+
+                            <Spinner
+                                android:id="@+id/yearspn"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/draw_edittext_bg"
+                            android:padding="2dp">
+
+                            <Spinner
+                                android:id="@+id/monthspn"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/cardnameEdt"
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/draw_edittext_bg"
+                        android:gravity="right"
+                        android:hint="@string/reg_cardname"
+                        android:imeOptions="actionDone"
+                        android:maxLength="60"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/hintcolor"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/termsTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/termscard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center_vertical"
+                            android:button="@drawable/savecard_onoff"
+                            android:paddingLeft="10dp"
+                            android:text="@string/reg_terms"
+                            android:textColor="@color/checkboxtxtcolor" />
+
+
+                        <CheckBox
+                            android:id="@+id/isDefaultChk"
+                            style="@style/enterTxt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:button="@drawable/savecard_onoff"
+                            android:checked="true"
+                            android:drawablePadding="5dp"
+                            android:scaleX="-1"
+                            android:text="@string/reg_savecard"
+                            android:textColor="@color/checkboxtxtcolor"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/submitBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/button_accept"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:text="@string/submit"
+                        android:textColor="@drawable/text_color_black_to_white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/linebottom_light" />
+
+                <LinearLayout
+                    android:id="@+id/cashLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/cashTxt"
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/header_bgcolor"
+                        android:drawableLeft="@drawable/left_arrow"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/cash"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="@string/reg_cash"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+
+                        <CheckBox
+                            android:id="@+id/termscheck"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/termsTxtCash"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center_vertical"
+                            android:button="@drawable/savecard_onoff"
+                            android:paddingRight="15dp"
+                            android:text="@string/reg_terms"
+                            android:textColor="@color/checkboxtxtcolor" />
+                    </LinearLayout>
+                    <!-- <CheckBox
+                         android:id="@+id/termsTxtCash"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:button="@drawable/savecard_onoff"
+                         android:paddingLeft="5dp"
+                         android:layout_marginRight="10dp"
+
+                         android:text="@string/reg_terms"
+                         android:textColor="@color/checkboxtxtcolor" />-->
+                    <!--                <CheckBox
+                                        android:id="@+id/termsTxtCash"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+
+                                        android:drawablePadding="5dp"
+                                        android:layout_marginRight="10dp"
+                                        android:button="@drawable/savecard_onoff"
+                                        android:scaleX="-1"
+                                        android:text="@string/reg_terms"
+                                        android:textColor="@color/checkboxtxtcolor" />-->
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/linebottom_light" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/promocodeTxt"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:drawableLeft="@drawable/left_arrow"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/referal_code"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="@string/referal"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/linebottom_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

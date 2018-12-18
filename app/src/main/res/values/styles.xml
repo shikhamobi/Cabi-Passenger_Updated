@@ -1,0 +1,165 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--
+    Base application theme, dependent on API level. This theme is replaced
+    by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+-->
+<style name="AppBaseTheme" parent="android:Theme.Light">
+
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+    <item name="android:windowBackground">@null</item>
+    <item name="android:windowAnimationStyle">@null</item>
+    <item name="android:windowDisablePreview">true</item>
+</style>
+
+    <style name="You.Dialog" parent="android:Theme.Holo.Dialog" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+<!-- Application theme. -->
+<style name="AppTheme" parent="AppBaseTheme">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+</style>
+
+
+
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/linebottom_light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+<style name="MyMaterialTheme" parent="MyMaterialTheme.Base" />
+
+<style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/header_bgcolor</item>
+    <item name="colorPrimaryDark">@color/linebottom_light</item>
+    <item name="colorAccent">@color/button_accept</item>
+    <item name="contentInsetStart">0dp</item>
+    <item name="android:textColorHint">@color/hintcolor</item>
+    <item name="colorControlActivated">@color/MatThemectrlActive</item>
+</style>
+
+<style name="MyMaterialTheme.Base2" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/header_bgcolor</item>
+    <item name="colorPrimaryDark">@color/linebottom_light</item>
+    <item name="colorAccent">@color/button_accept</item>
+    <item name="contentInsetStart">0dp</item>
+    <item name="android:textColorHint">@color/hintcolor</item>
+
+</style>
+
+<style name="Mymaterialact" parent="MyMaterialTheme.Base2" />
+
+
+
+<style name="Transparent1" parent="MyMaterialTheme.Base1" />
+
+
+<style name="MyMaterialTheme.Base1" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/header_bgcolor</item>
+    <item name="colorPrimaryDark">@color/linebottom_light</item>
+    <item name="colorAccent">@color/button_accept</item>
+    <item name="contentInsetStart">0dp</item>
+    <item name="android:textColorHint">@color/hintcolor</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+
+
+
+<style name="NewDialog" parent="@android:Theme.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+
+<style name="dialogwinddow" parent="@android:Theme.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+
+<style name="customratingbar" parent="@android:style/Widget.RatingBar">
+    <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+    <item name="android:minHeight">39dp</item>
+    <item name="android:maxHeight">42dp</item>
+    <item name="android:minWidth">39dp</item>
+    <item name="android:gravity">clip_vertical</item>
+</style>
+
+<style name="farefrag"><item name="android:textSize">@dimen/fare_details_item</item><item name="android:textColor">@color/black</item></style>
+
+<style name="MySwitch" parent="Theme.AppCompat.Light">
+    <!-- active thumb & track color (30% transparency) -->
+    <item name="colorControlActivated">@color/pickupheadertext</item>
+
+    <!-- inactive thumb color -->
+    <item name="colorSwitchThumbNormal">@color/button_accept</item>
+
+    <!-- inactive track color (30% transparency) -->
+    <item name="android:colorForeground">@color/linebottom_light</item>
+</style>
+<style name="customratingbar_large" parent="@android:style/Widget.RatingBar">
+    <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+    <item name="android:minHeight">86px</item>
+    <item name="android:maxHeight">120px</item>
+    <item name="android:minWidth">54px</item>
+    <item name="android:gravity">clip_vertical</item>
+</style>
+
+<style name="Theme.Transparent" parent="MyMaterialTheme.Base">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+
+</style>
+<style name="Color1SwitchStyle">
+    <item name="colorControlActivated">@color/pickupheadertext</item>
+    <item name="colorSwitchThumbNormal">@color/cancelbtntxtcolor</item>
+    <item name="colorControlNormal">@color/cancelbtntxtcolor</item>
+</style>
+
+    <style name="enterTxt">
+    <item name="android:textSize">16sp</item>
+</style>
+
+<style name="buttonTxt">
+    <item name="android:textSize">18sp</item>
+</style>
+
+<style name="slidemenuTxt">
+    <item name="android:textSize">16sp</item>
+</style>
+<style name="MyButton" parent="Theme.AppCompat.Light">
+    <item name="colorControlHighlight">@color/button_accept</item>
+    <item name="colorButtonNormal">@color/buttonnormaltheme</item>
+</style>
+
+<style name="headerTxt">
+    <item name="android:textSize">20sp</item>
+</style>
+
+</resources>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "729959852806",
+    "firebase_url": "https://cabi-passenger.firebaseio.com",
+    "project_id": "cabi-passenger",
+    "storage_bucket": "cabi-passenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729959852806:android:1808d7b81887d070",
+        "android_client_info": {
+          "package_name": "com.cabi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729959852806-8ra3bs90n4f1rp5s2gbc8h7ml3b7dqcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAc0VJTwDlkPgUFty_d5_KdqvDj2lts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729959852806:android:1ab5e1bc11a02b18",
+        "android_client_info": {
+          "package_name": "com.cabipassenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729959852806-8ra3bs90n4f1rp5s2gbc8h7ml3b7dqcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnmAc0VJTwDlkPgUFty_d5_KdqvDj2lts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

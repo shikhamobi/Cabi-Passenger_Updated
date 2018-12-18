@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/favdriveritem_contain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/placelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.cabipassenger.util.RoundedImageView
+            android:id="@+id/driverImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/taxi__search_padding_medium"
+            android:src="@drawable/loadingimage"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/driverImg"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/driver_nameTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/driver_vechilenum"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textSize="15sp"
+                android:textColor="@color/textviewcolor_dark" />
+
+
+
+            <!--<TextView
+                android:id="@+id/driver_emailTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="@color/textviewcolor_dark" />
+
+            <TextView
+                android:id="@+id/driver_phoneTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="@color/textviewcolor_dark" />-->
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_delete"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/delete"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/linebottom_light"
+        android:layout_height="1dp"/>
+</LinearLayout>

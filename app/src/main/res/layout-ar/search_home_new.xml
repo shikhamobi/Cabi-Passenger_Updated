@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchlay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="3dp"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dropppp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="55dp"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/currentlocTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0.80"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:fadingEdge="horizontal"
+                        android:gravity="center"
+                        android:hint="@string/picklocation"
+                        android:lines="1"
+                        android:maxLength="30"
+                        android:padding="10dip"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="12sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/closepickup"
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@color/white"
+                            android:paddingLeft="3dp"
+                            android:src="@drawable/close"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/closepickupdone"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@color/white"
+                            android:paddingLeft="3dp"
+                            android:src="@drawable/testdone"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/linebottom_light" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/drop_location_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0.80"
+                        android:background="@color/white"
+                        android:ellipsize="end"
+                        android:fadingEdge="horizontal"
+                        android:gravity="center"
+                        android:hint="@string/droplocnew"
+                        android:lines="1"
+                        android:maxLength="30"
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <ImageButton
+                        android:id="@+id/taxi__locationsearch_imagebutton_clear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="right|center"
+                        android:background="@null"
+                        android:contentDescription="@string/taxi__empty"
+                        android:paddingLeft="@dimen/taxi__search_padding_large"
+                        android:paddingRight="@dimen/taxi__search_padding_large"
+                        android:src="@drawable/close"
+                        android:visibility="gone" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:gravity="center">
+
+
+                        <ImageView
+                            android:id="@+id/closedrop"
+                            android:layout_width="18dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@color/white"
+                            android:paddingLeft="3dp"
+                            android:src="@drawable/close"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/closedropdone"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@color/white"
+                            android:paddingLeft="3dp"
+                            android:src="@drawable/testdone"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/linebottom_light"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/drop_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="@dimen/taxi__search_padding_medium"
+                android:src="@drawable/location"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/pickup_pinlay"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/drop_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/taxi__search_padding_medium"
+                    android:src="@drawable/location" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/pickupp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@+id/pickup_pinlay"
+                android:background="@drawable/rect_home_bottom"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="2dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/taxi__search_padding_medium"
+                    android:src="@drawable/dot" />
+
+
+                <EditText
+                    android:id="@+id/currentlocTxt"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="0.2"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/picklocation"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/closepickup"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/close"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/pickup_drop_Sep"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_below="@id/pickupp"
+                android:background="@android:color/transparent" />
+
+
+            <LinearLayout
+                android:id="@+id/dropppp_lc"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@id/pickup_drop_Sep"
+                android:layout_toRightOf="@id/pickup_pinlay"
+                android:background="@drawable/rect_home_bottom"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/taxi__search_padding_medium"
+                    android:src="@drawable/droplocation1" />
+
+
+                <EditText
+                    android:id="@+id/drop_location_edittext"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:hint="@string/droplocation"
+                    android:imeOptions="actionDone"
+                    android:inputType="textNoSuggestions"
+                    android:paddingBottom="@dimen/taxi__search_padding_medium"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="@dimen/taxi__search_padding_medium"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hintcolor"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/taxi__locationsearch_imagebutton_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right|center"
+                    android:background="@null"
+                    android:contentDescription="@string/taxi__empty"
+                    android:paddingLeft="@dimen/taxi__search_padding_large"
+                    android:paddingRight="@dimen/taxi__search_padding_large"
+                    android:src="@drawable/close"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/closedrop"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="2dp"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:src="@drawable/close" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:foreground="@drawable/background_shadow"
+            android:visibility="gone">
+            <!-- YOUR STUFF HERE -->
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/dummy_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_gravity="left"
+            android:background="@null"
+            android:gravity="start"
+            android:hint="@string/droplocation"
+            android:imeOptions="actionDone"
+            android:inputType="textNoSuggestions"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/taxi__locationsearch_viewgroup_content"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/taxi_fare_rectbg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/home_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/add_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:singleLine="false"
+                    android:text="Add Home"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/add_home_subtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:text="Add Home"
+                    android:textColor="@color/linebottom_dark"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/work_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/add_work"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:singleLine="false"
+                    android:text="Add Home"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/add_work_subtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:text="Add Home"
+                    android:textColor="@color/linebottom_dark"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/favourite_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/add_favourite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:singleLine="false"
+                    android:text="Add Home"
+                    android:textColor="@color/black"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/add_favourite_subtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline"
+                    android:ellipsize="none"
+                    android:fadingEdge="horizontal"
+                    android:fadingEdgeLength="16.0dip"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="5dp"
+                    android:singleLine="true"
+                    android:text="Add Home"
+                    android:textColor="@color/linebottom_dark"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/taxi__locationsearch_listview_locations"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                android:listSelector="@color/transparent"
+                android:visibility="gone" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/taxi__locationsearch_listview_locationsnew"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:divider="@null"
+                android:dividerHeight="0.0dip"
+                android:listSelector="@color/transparent"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/imageclosebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:contentDescription="@string/taxi__empty"
+                android:paddingLeft="@dimen/taxi__search_padding_large"
+                android:paddingRight="@dimen/taxi__search_padding_large"
+                android:src="@drawable/close"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50.0dip"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/taxi__empty"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/taxi__search_padding_large"
+                android:textColor="@color/textviewcolor_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:id="@+id/drop_loc_lay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/actionbar"
+                android:layout_margin="5dp"
+                android:onClick="ClickMethod"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/drop_ic"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:src="@drawable/droplocation1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_toRightOf="@+id/drop_ic"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:text="@string/droploc_c"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_toLeftOf="@+id/book_later_b"
+                    android:background="@color/linebottom_light"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/book_later_b"
+                    style="@style/enterTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/timer"
+                    android:padding="11dp"
+                    android:textColor="@color/buttontextcolor"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

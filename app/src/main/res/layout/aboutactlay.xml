@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_containlay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/header_bgcolor"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_headler"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp" />
+
+    <ScrollView
+        android:id="@+id/about_contain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/enterTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:padding="5dip"
+
+                android:text="@string/about_sub_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_large" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/site_name"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/bold_title_below"
+                style="@style/enterTxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/headtitle_below"
+                android:textColor="@color/textviewcolor_light"
+
+                android:textSize="@dimen/text_normal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:id="@+id/rateapplay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/header_bgcolor"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/rateapp"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow" />
+                </FrameLayout>
+
+                <!--<View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+
+                    android:background="@color/line_grey" />-->
+
+                <FrameLayout
+                    android:id="@+id/likfblay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/header_bgcolor"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/likefb"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow" />
+                </FrameLayout>
+
+                <!-- <View
+                     android:layout_width="fill_parent"
+                     android:layout_height="0.5dp"
+
+                     android:background="@color/line_grey" />-->
+
+                <FrameLayout
+                    android:id="@+id/fllwtwlay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/followtw"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow" />
+                </FrameLayout>
+
+                <!--<View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line_grey" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="@string/legal"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <FrameLayout
+                    android:id="@+id/termslay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/termcond"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow" />
+                </FrameLayout>
+
+                <!-- <View
+                     android:layout_width="fill_parent"
+                     android:layout_height="0.5dp"
+                     android:background="@color/line_grey" />-->
+
+                <FrameLayout
+                    android:id="@+id/privacypolicylay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/policy"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow" />
+                </FrameLayout>
+
+                <!-- <View
+                     android:layout_width="fill_parent"
+                     android:layout_height="0.5dp"
+                     android:background="@color/line_grey" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="@string/link"
+                    android:textColor="@color/black" />
+
+                <!--<View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line_grey" />-->
+
+                <RelativeLayout
+                    android:id="@+id/fblinklay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:gravity="center_vertical"
+                    android:onClick="clickMethod"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/fb_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/invite_fb" />
+
+                    <TextView
+                        android:id="@+id/fblink"
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/fb_icon"
+                        android:paddingLeft="5dp"
+                        android:text="@string/fblink"
+                        android:textColor="@color/textviewcolor_light"
+                        android:textSize="@dimen/text_normal" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/right_arrow"
+                        android:textSize="@dimen/text_normal" />
+                </RelativeLayout>
+
+                <!--<View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/line_grey"
+                    android:textSize="19sp" />-->
+
+                <RelativeLayout
+                    android:id="@+id/twlinklay"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/header_bgcolor"
+                    android:gravity="center_vertical"
+                    android:onClick="clickMethod"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/twicon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/invite_twitter" />
+
+                    <TextView
+                        android:id="@+id/twlink"
+                        style="@style/enterTxt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/twicon"
+                        android:paddingLeft="5dp"
+                        android:text="@string/twlink"
+                        android:textColor="@color/textviewcolor_light" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="10dp"
+
+                        android:src="@drawable/right_arrow" />
+                </RelativeLayout>
+
+                <!-- <View
+                     android:layout_width="fill_parent"
+                     android:layout_height="0.5dp"
+                     android:background="@color/linebottom_light" />-->
+
+                <TextView
+                    android:id="@+id/version_code"
+                    style="@style/enterTxt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/version_up_later"
+                    android:textColor="@color/textviewcolor_light"
+                    android:textSize="16sp" />
+
+                <!--<View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line_grey" />-->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

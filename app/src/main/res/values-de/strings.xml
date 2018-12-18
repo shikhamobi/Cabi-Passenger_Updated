@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_selection_split">Sie können die Zahlungsart nicht ändern, wenn die Split-Tarifeinrichtung aktiviert ist</string>
+    <string name="app_nametm">Cabi</string>
+    <string name="your_card_expiry">Ihre Karte ist abgelaufen</string>
+    <string name="enter_the_confirmation_phoneno">Bitte geben Sie Ihre gültige Handynummer ein</string>
+    <string name="track_now">Jetzt spielen</string>
+    <string name="dist_fare">Fahrpreis</string>
+    <string name="fare2">123</string>
+    <string name="enter_valid_comment">Einen gültigen Kommentar eingeben</string>
+    <string name="hour">Stunde</string>
+    <string name="promotion">Beförderung</string>
+    <string name="calldriver">Sind Sie sicher, dass Sie Fahrer anrufen möchten?</string>
+    <string name="min_trav">Minuten gereist</string>
+
+    <string name="excuse_me_brevity"> Entschuldigen Sie meine Kürze , Zeichen mit dem Referenzcode nach oben</string>
+    <string name="and_earn"> und verdienen </string>
+    <string name="download_from">.Laden Sie die App aus :</string>
+<string name="promo_code_empty" > Sie don \'t gelten alle Promo-Code</string>
+
+    <string name="vehicle_min">Fahrzeug-Minuten-Tarif</string>
+
+
+
+    <string name="no_thanks">Nein danke</string>
+    <string name="confirm_booking">Bestätigen Sie später Buchung?</string>
+    <string name="no_info">Keine Informationen zu aktualisieren</string>
+     <string name="old_password_mismatch_with_password">Altes Passwort stimmt nicht überein
+    </string>
+    <string name="select_the_drop_location">Bitte wählen Sie den Ablageort</string>
+
+    <!-- signup -->
+    <string name="OTP">OTP</string>
+    <string name="resend">DID\'NT erhalten? ERNEUT SENDEN</string>
+    <string name="defaultcard">Als Standard einstellen</string>
+    <string name="keyincode">KEY IN CODE WENN SIE WURDEN refered</string>
+
+    <!-- edit favourite -->
+
+    <string name="comment">Kommentare</string>
+    <!-- flgger lay -->
+
+    <string name="percentTotal">Der Gesamtprozentsatz  sollte 100 sein</string>
+    <!-- about us lay -->
+    <string name="headtitle_below">Lorem Ipsum ist einfach Dummy-Text der Druck und Satz Industrie
+    </string>
+    <string name="fblink">facebook.com/Taximobility</string>
+    <string name="twlink">twitter.com/Taximobility</string>
+
+    <!-- forgot_popup -->
+    <string name="forgotpassw">Passwort vergessen</string>
+
+    <!-- booking details -->
+
+
+    <!-- <color name="opaque_back">#474541</color> -->
+
+    <!-- upcoming lay -->
+    <!-- forgotpassword -->
+
+    <string name="pass_app_link">https://play.google.com/store/apps/details?id=com.Taximobility
+    </string>
+    <!-- version upadte -->
+
+
+    <string name="split_status">Split Fare-Status</string>
+    <string name="split_">Split tarief</string>
+    <string name="favoritedriver_">favoriete Driver </string>
+
+
+    <string name="hide">Verstecken</string>
+    <string name="show">Show</string>
+
+    <!--<string name="english">English</string>-->
+    <string name="location_disable">Ortungsdienste deaktiviert</string>
+    <string name="enable">aktivieren</string>
+    <string name="settings">Einstellungen</string>
+    <string name="cancel">stornieren</string>
+    <string name="fblogin">Via Facebook anmelden</string>
+    <string name="mobileno">Handy Nummer</string>
+    <string name="password">Kennwort</string>
+    <string name="done">Fertig</string>
+    <string name="signin">Anmelden</string>
+    <string name="signins">Anmelden</string>
+    <string name="enter_the_mobile_number">Geben Sie ihre Handynummer an</string>
+    <string name="enter_the_password">Geben Sie das Passwort</string>
+    <string name="password_min_character">Passwort sollte mindestens 6 Zeichen lang sein</string>
+    <string name="password_max_character">Passwort sollte weniger als 32 Zeichen sein</string>
+    <string name="confirmlogout">Sind Sie sicher, dass Sie sich ausloggen?</string>
+    <string name="userphno">Benutzer Handynumber</string>
+    <string name="forgotpswd">Passwort vergessen?</string>
+    <string name="create_account">Konto Erstellen</string>
+    <string name="plzselect">Bitte wählen</string>
+    <string name="profile_image">Profilbild</string>
+    <string name="choose_an_image">Wählen Sie ein Bild</string>
+    <string name="gallery">Galerie</string>
+    <string name="camera">Kamera</string>
+    <string name="no_changes">Keine Änderungen vorgenommen!</string>
+    <string name="please_select_your_salutation">Bitte wählen Sie die gewünschte Anrede</string>
+    <string name="enter_the_first_name">Tragen sie ihren Vornamen ein</string>
+    <string name="enter_the_last_name">Tragen sie ihren Nachnamen ein</string>
+    <string name="enter_the_card_number">Geben Sie  ihre Kartennummer</string>
+    <string name="enter_the_expiry_date">Geben Sie das Ablaufdatum an</string>
+    <string name="enter_the_cvv">Tragen sie ihre Kartenprüfnummer ein</string>
+    <string name="enter_the_valid_CVV">Geben Sie ihre gültige Kartenprüfnummer an</string>
+    <string name="enter_the_email">Geben Sie ihre E-Mail Adresse an</string>
+    <string name="enter_the_valid_email">Geben Sie die gültige Email Adresse</string>
+    <string name="enter_the_confirmation_password">Geben Sie ihr Bestätigungsnummer</string>
+    <string name="confirmation_password_mismatch_with_password">Confirmation password does not match with Password</string>
+    <string name="please_select_image_from_valid_path">Bitte wählen Sie ein Bild aus gültigen Pfad(Gallery Ordner)</string>
+    <string name="please_complete_registration">Registrierung Noch nicht aheader_bgcoloreschlossen ...</string>
+    <string name="salutation">Anrede</string>
+    <string name="first">Vorname</string>
+    <string name="last">Nachname</string>
+    <string name="email">Email adresse</string>
+    <string name="confimpswd">Passwort Bestätigen</string>
+    <string name="acctxt">Wir verwenden Ihre E-Mail und Handynummer nur, um ihnen über ihre Fahrt zu Benachrichtigung und Quittungen zusenden.</string>
+    <string name="cardnumber">Karte nummer</string>
+    <string name="expiry">Ablauf</string>
+    <string name="cvv">Kartenprüfnummer (CVV)</string>
+    <string name="securecard">Daten wurden gespreichert. Ihre Karte wird nur mit dem Fahrpreis belastet</string>
+    <string name="readterms"><u>Ich habe die AGB gelesen und verstanden</u></string>
+    <string name="payby_cash">Mit Bargeld bezahlen?</string>
+    <string name="skip">zur zeit überspringen</string>
+    <string name="app_name">Taximobility Passagier</string>
+    <string name="taxiname">Taximobility</string>
+    <string name="select_the_pickup_location">Wählen Sie ihre Abholadresse</string>
+    <string name="book_taxi">Taxi Buchen</string>
+    <string name="bookedtaxi">Sie haben bereits ein Taxi gebucht</string>
+    <string name="avaiable_car">Auto(s) verfügbar</string>
+    <string name="min">min</string>
+    <string name="nodrivers">Keine Autos Vorhanden</string>
+    <string name="droplocnew">Zieladresse (freiwillig)</string>
+    <string name="book_now">Buche Jetzt</string>
+    <string name="promo_code">Aktionscode (Optional)</string>
+    <string name="fetching_address">Holen Adresse ...</string>
+    <string name="location">Position</string>
+    <string name="choose_place">Wählen Sie den Ort, Art</string>
+    <string name="back">zurück</string>
+    <string name="Trip_in_progress">Fahrt läuft</string>
+    <string name="intransit">Fahrt läuft</string>
+    <string name="Confirmation">Bestätigung </string>
+    <string name="estimated_arrival">Geschätzte Ankunftszeit</string>
+    <string name="mins">Minuten</string>
+    <string name="ok">OK</string>
+    <string name="driver_location">Fahrer Position</string>
+    <string name="droplocation">Zieladresse</string>
+    <string name="picklocation">Limousine Standort</string>
+    <string name="call">Anruf</string>
+    <string name="defaultcard1">Karte als Standard auswählen</string>
+    <string name="confirmdelete">Sind Sie sicher, Sie wollen Karte löschen?</string>
+    <string name="delete_card">Karte löschen</string>
+    <string name="canceled_from">Lastschrift ab:</string>
+    <string name="canceled_amount">Aheader_bgcoloresagt Betrag:</string>
+    <string name="select_payment">Selecteer de betalingsmethode</string>
+    <string name="wallet_amt">Wallet Bedrag</string>
+    <string name="paid_amt">Betaalde hoeveelheid</string>
+    <string name="payment_type">Betalingswijze</string>
+
+    <string name="referal"> Referenzcode</string>
+    <string name="zerofee">gebührenfrei mit kreditkarte bezahlen</string>
+    <string name="edit">bearbeiten</string>
+    <string name="select_card_type">Wählen Sie Kartentyp</string>
+    <string name="enter_the_valid_card_number">Geben Sie ihre gültige Kartennummer an</string>
+    <string name="mobile">Handy</string>
+    <string name="enter_the_old_password">Geben Sie ihr altes Passwort an</string>
+    <string name="enter_the_new_password">Neues Passwort eingeben</string>
+    <string name="sendmail">Mail senden</string>
+    <string name="there_is_no_email_client_installed">Es wurde keine E-Mail-Client installiert</string>
+    <string name="payment_complete">Auftrag aheader_bgcoloreschlossen</string>
+    <string name="thanksforflag">Wir danken für Taximobility Machen Sie Ihre nächste Reise noch angenehmer</string>
+    <string name="ratedriver">Urteil Ihre Driver</string>
+    <string name="shareride">teilen</string>
+    <string name="edit_favourites">Favoriten bearbeiten</string>
+    <string name="add_favourites">Favoriten hinzufügen</string>
+    <string name="register">Registrieren</string>
+    <string name="submit">einreichen</string>
+    <string name="agree_the_terms_and_condition">Allgemeine Geschäftsbedingungen akzeptieren</string>
+    <string name="details">Einzelheiten</string>
+    <string name="fare_txt">Fahrpreis</string>
+    <string name="base_fare">Basistarif</string>
+    <string name="min_fare">Mintarif</string>
+    <string name="below">unten</string>
+    <string name="above">oben</string>
+    <string name="nit_fare">Nacht Nebenkosten</string>
+    <string name="nit_fare_to">bis</string>
+    <string name="menu">Menu</string>
+    <string name="menu_gettaxi">Verfolgen Trip</string>
+    <string name="menu_mybooking">Meine Buchung</string>
+    <string name="menu_payment">Zahlungsmöglichkeiten</string>
+    <string name="completed">Voltooid</string>
+
+    <string name="picklocation_header">OPHAALPLAATS</string>
+
+    <string name="waiting">het wachten</string>
+    <string name="waiting_time">Wachttijd Cost</string>
+    <string name="vehicle_wait">Vehicle Wachttijd</string>
+    <string name="sub_total">Subtotaal</string>
+    <string name="Tax">belasting</string>
+    <string name="total">Totaal</string>
+    <string name="paid_by">Betaald door</string>
+    <string name="cash">geld</string>
+
+    <string name="vehicle_dist">Voertuig Afstand Fare</string>
+    <string name="trip_fare">trip Fare</string>
+    <string name="trip_id">trip ID</string>
+    <string name="help">Hilfe</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_favourites">Favoriten</string>
+    <string name="menu_fare">Fahrpreis</string>
+    <string name="menu_about">Über Uns</string>
+    <string name="menu_about_us">Über Uns</string>
+    <string name="book_a_taxi">Zurück nach Hause</string>
+    <string name="menu_logout">Abmelden</string>
+    <string name="place">Platz</string>
+    <string name="amount">Betrag</string>
+    <string name="payment">Zahlung</string>
+    <string name="jobref">Auftrag Nr</string>
+    <string name="t_passname">Fahrer Name</string>
+    <string name="t_pickloc">Treffpunkt</string>
+    <string name="t_picktime">Abholzeit</string>
+    <string name="t_book">Buchungszeit</string>
+    <string name="t_droploc">Fallen Ort</string>
+    <string name="t_droptime">Ort Zeit</string>
+    <string name="t_distance">Entfernung</string>
+    <string name="t_tripduration">Reisedauer</string>
+    <string name="rateapp">Beoordeel ons in de Play Store</string>
+    <string name="likefb">Empfehlen Sie uns auf Facebook</string>
+    <string name="followtw">Folgen Sie uns auf Twitter</string>
+    <string name="legal">gesetzlich</string>
+    <string name="termcond">Allgemeine Geschäftsbedingungen</string>
+    <string name="policy">Datenschutz-Bestimmungen</string>
+    <string name="link">Link</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="save">Speichern</string>
+    <string name="requestingtaxi">Taxi bestellen</string>
+    <string name="landmark">Wahrzeichen</string>
+    <string name="chpwd">Kennwort ändern</string>
+    <string name="conpwd">Passwort Bestätigen</string>
+    <string name="oldpwd">Altes Passwort</string>
+    <string name="newpwd">neues Passwort</string>
+    <string name="addcard">Neue Karte hinzufügen</string>
+    <string name="home">Nach Hause</string>
+    <string name="office">Büro</string>
+    <string name="airport">Flughafen</string>
+    <string name="others">andere</string>
+    <string name="reason_title">Reden voor het annuleren</string>
+
+    <!--<string name="reason1">Ändern Sie den Reiseplan</string>
+    <string name="reason2">In Fehler Buchung Ort</string>
+    <string name="reason3">Cab Verzögerung / Fragen</string>-->
+    <string name="reason1">1.Cab vertraging</string>
+    <string name="reason2">2.Driver niet gereageerd</string>.
+    <string name="reason3">3.Verkeerde adres getoond</string>
+    <string name="reason4">4.Veranderde het reisplan</string>
+    <string name="reason5">5.In Fehler Buchung Ort</string>
+    <string name="reason6">6.anders</string>
+
+    <string name="menu_account">Konto</string>
+    <string name="you">Sie</string>
+    <string name="card">Karte</string>
+    <string name="yes">Ja</string>
+    <string name="no">keine</string>
+    <string name="message">Nachricht</string>
+    <string name="delete_fdrivers">Weet je zeker, Wilt u de bestuurder uit favorietenlijst verwijderen?</string>
+    <string name="no_taxi">Taxi im Moment für ausgewählte Modell nicht verfügbar.</string>
+    <string name="book_again">buchen Wieder</string>
+    <string name="tripdetail">Auftrag Details</string>
+    <string name="canceling_taxi">Abbrechen anfordern</string>
+    <string name="add">Fügen Sie</string>
+    <string name="fav_pick_location">Beliebteste Limousine Standort</string>
+    <string name="fav_drop_location">Beliebteste Tropfen Ort</string>
+    <string name="enter_other_details">Geben Sie die Details Ort</string>
+    <string name="personalcard">persönlich</string>
+    <string name="businesscard">Unternehmen</string>
+    <string name="cancelled">Aheader_bgcoloresagt</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="about_sub_title">Fahren Sie von überall Taximobility</string>
+    <string name="site_name">Taximobility.com</string>
+    <string name="check_internet_connection">Überprüfen Sie Ihre Internetverbindung</string>
+    <string name="no_going_trip">Es gibt keine laufenden Reise</string>
+    <string name="try_again">Erneut versuchen</string>
+    <string name="eta">ETA</string>
+    <string name="minimum_fare">Mindest\nfahrpreis</string>
+    <string name="minimum_size">Mindest\ngröße</string>
+    <string name="ppl"> PPL</string>
+    <string name="droploc"> Zieladresse </string>
+    <string name="picktime"> Abholzeit</string>
+    <string name="on_going">Going On</string>
+    <string name="up_coming">Bevorstehende</string>
+    <string name="past_booking">Frühere Buchung</string>
+    <!-- version upadte -->
+    <string name="version_up_message">Es gibt eine neue Version von Taximobility verfügbar ist, wird diese Version nicht mehr unterstützt.</string>
+    <string name="version_up_title">aktualisieren</string>
+    <string name="version_up_now">Jetzt aktualisieren</string>
+    <string name="version_up_later">später</string>
+    <!-- invite friend -->
+    <string name="invite_sms">Per SMS einladen</string>
+    <string name="invite_email">Per E-Mail einladen</string>
+    <string name="invite_fb">Facebook</string>
+    <string name="invite_whatsapp">Whatsapp</string>
+    <string name="invite_twitter">Twitter</string>
+    <string name="invite_sharevia">Teilen Via</string>
+    <string name="invite_frdrides">Als ein Freund reitet mit Ihrem Code</string>
+    <string name="invite_youearn">Je verdient</string>
+
+
+
+    <string-array name="sal_type">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+    </string-array>
+    <string-array name="percent_type">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+    </string-array>
+    <string-array name="percent_type_u">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <!-- year list -->
+    <string-array name="yearary">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+    </string-array>
+    <!-- month list -->
+    <string-array name="monthlistary">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <!-- V5.0-->
+
+    <string name="payment_cash">geld</string>
+    <string name="payment_card">Tarjeta de crédito</string>
+    <string name="max_size">maximale grootte</string>
+
+    <string name="fare_estimate">Fare Estimate</string>
+    <string name="cash_card">Kreditkarte</string>
+    <string name="request_taxi">Anfrage Taxi</string>
+    <string name="ride_later">reiten Sie später</string>
+    <string name="apply">anwenden</string>
+    <string name="or">Oder</string>
+    <string name="taxi__empty">Oder</string>
+    <string name="Language">Sprache</string>
+    <string name="split_with_friends">Split einen Tarif mit Freunden</string>
+    <string name="total_aprox_fare">Insgesamt Ungefähre Kosten: </string>
+    <string name="ur_approx_fare">Ihre ungefähre Fahrpreis :</string>
+    <string name="approx_fare">Geschatte Fare</string>
+    <string name="Mins">mins</string>
+    <string name="verify_email">Code verifiëren</string>
+    <string name="enter_dest">Geben Sie die Ziel</string>
+    <string name="enter_pickup">Geben Sie Pickup</string>
+    <string name="enter_promo_code">Geben Sie Promo -Code</string>
+    <string name="may_vary">Dies ist eine Schätzung. Die tatsächlichen Tarife auf den Verkehr oder Rabatte leicht variieren basierend kann</string>
+    <string name="type_your_comment">Geben Sie Ihren Kommentar</string>
+    <string name="contact_number">Kontakt Nummer</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="z_split_fare_with">Split ein Fare mit</string>
+    <string name="z_split_charged">Ihr Tarif wird berechnet</string>
+    <string name="fbsignup">Anmelden mit Facebook</string>
+    <string name="cancel_fare">Abbrechen Fare</string>
+    <string name="even_charge">Abendkosten</string>
+    <string name="waiting_fare">wachten Fare</string>
+    <string name="estimate_fare">Geschätzte Fare</string>
+    <string name="e_receipt">E-Quittung</string>
+    <string name="mybookings">Meine Buchungen</string>
+    <string name="add_card">Karte hinzufügen</string>
+    <string name="edit_card">Karte bearbeiten</string>
+    <string name="nocard">Sie haben keine Kreditkarte haben</string>
+    <string name="ontxt">auf</string>
+    <string name="offtxt">aus</string>
+    <string name="inprogress">In Bearbeitung</string>
+    <string name="accepted">Akzeptiert</string>
+    <string name="rejected">Zurückgewiesen</string>
+    <string name="pressBack">Klik nogmaals BACK om af te sluiten</string>
+    <!-- card registration -->
+    <string name="reg_creditcard">Kreditkarte</string>
+    <string name="reg_cash">Barzahlung</string>
+    <string name="reg_promocode">Promo-Code</string>
+    <string name="reg_cardnumber">Kartennummer</string>
+    <string name="reg_month">MM</string>
+    <string name="reg_year">YY</string>
+    <string name="reg_cc">CVV</string>
+    <string name="reg_cardname">Name des Karten</string>
+    <string name="reg_entercardname">Geben Sie Ihre Kartennamen</string>
+    <string name="reg_savecard">Speichern Detailansicht</string>
+    <string name="reg_terms"><u>Geschäftsbedingungen</u></string>
+    <string name="reg_enterprcode">Geben Sie einfach Ihre Promo Code</string>
+    <string name="reg_expmonth">Bitte wählen Sie Verfallmonats</string>
+    <string name="reg_expyear">Bitte wählen Sie Ablauf Jahr</string>
+    <string name="invite_friend">Freunde einladen</string>
+    <string name="reg_enter_referral">Geben Sie Referral-Code</string>
+    <!-- wallet -->
+    <string name="wallet">Brieftasche</string>
+    <string name="walletmsg">Gebruik de portemonnee bedrag reis betaling te doen</string>
+
+    <!-- verify mobile -->
+    <string name="verify_enter_code">Vul verificatiecode die is verzonden</string>
+    <string name="verify_valid_code">Bitte geben Sie eine gültige Sicherheitscode</string>
+    <string name="verify_resend">ERNEUT SENDEN</string>
+    <!-- add money -->
+    <string name="addmoney">Geld hinzufügen</string>
+    <string name="addmoney_paypal">Paypal</string>
+    <string name="addmoney_braintree">Gehirn-Baum-</string>
+    <string name="recharge_money">Laden Sie Geld</string>
+    <string name="amount_between">Geben Sie Betrag zwischen</string>
+    <string name="enter_amount">Bitte geben Sie eine gültige Menge</string>
+    <string name="have_promocode"><u>HABEN SIE EINEN PROMO-CODE?</u></string>
+    <string name="getfare_estimate">Krijg Fare Estimate</string>
+    <string name="fare_per_km">Fahrpreis pro</string>
+    <string name="menu_support">Kundendienst</string>
+    <string-array name="country_code">
+        <item>+93     &amp; Afghanistan</item>
+        <item>+355    &amp; Albania</item>
+        <item>+213    &amp; Algeria</item>
+        <item>+1(684) &amp; American Samoa</item>
+        <item>+376    &amp; Andorra</item>
+        <item>+244    &amp; Angola</item>
+        <item>+1(264) &amp; Anguilla</item>
+        <item>+672    &amp; Antarctica</item>
+        <item>+1(268) &amp; Antigua and Barbuda</item>
+        <item>+54     &amp; Argentina</item>
+        <item>+374    &amp; Armenia</item>
+        <item>+297    &amp; Aruba</item>
+        <item>+61     &amp; Australia</item>
+        <item>+43     &amp; Austria</item>
+        <item>+994    &amp; Azerbaijan</item>
+        <item>+1(242) &amp; Bahamas</item>
+        <item>+973    &amp; Bahrain</item>
+        <item>+880    &amp; Bangladesh</item>
+        <item>+1(246) &amp; Barbados</item>
+        <item>+375    &amp; Belarus</item>
+        <item>+32     &amp; Belgium</item>
+        <item>+501    &amp; Belize</item>
+        <item>+229    &amp; Benin</item>
+        <item>+1(441) &amp; Bermuda</item>
+        <item>+975    &amp; Bhutan</item>
+        <item>+591    &amp; Bolivia</item>
+        <item>+387    &amp; Bosnia and Herzegovina</item>
+        <item>+267    &amp; Botswana</item>
+        <item>+55     &amp; Brazil</item>
+        <item>+1(284) &amp; British Virgin Islands</item>
+        <item>+673    &amp; Brunei</item>
+        <item>+359    &amp; Bulgaria</item>
+        <item>+226    &amp; Burkina Faso</item>
+        <item>+95     &amp; Burma (Myanmar)</item>
+        <item>+257    &amp; Burundi</item>
+        <item>+855    &amp; Cambodia</item>
+        <item>+237    &amp; Cameroon</item>
+        <item>+1(403) &amp; Canada</item>
+        <item>+238    &amp; Cape Verde</item>
+        <item>+1(345) &amp; Cayman Islands</item>
+        <item>+236    &amp; Central African Republic</item>
+        <item>+235    &amp; Chad</item>
+        <item>+56     &amp; Chile</item>
+        <item>+86     &amp; China</item>
+        <item>+61     &amp; Christmas Island</item>
+        <item>+61     &amp; Cocos (Keeling) Islands</item>
+        <item>+57     &amp; Colombia</item>
+        <item>+269    &amp; Comoros</item>
+        <item>+682    &amp; Cook Islands</item>
+        <item>+506    &amp; Costa Rica</item>
+        <item>+385    &amp; Croatia</item>
+        <item>+53     &amp; Cuba</item>
+        <item>+357    &amp; Cyprus</item>
+        <item>+420    &amp; Czech Republic</item>
+        <item>+243    &amp; Democratic Republic of the Congo</item>
+        <item>+45     &amp; Denmark</item>
+        <item>+253    &amp; Djibouti</item>
+        <item>+1(767) &amp; Dominica</item>
+        <item>+1(809) &amp; Dominican Republic</item>
+        <item>+593    &amp; Ecuador</item>
+        <item>+20     &amp; Egypt</item>
+        <item>+503    &amp; El Salvador</item>
+        <item>+240    &amp; Equatorial Guinea</item>
+        <item>+291    &amp; Eritrea</item>
+        <item>+372    &amp; Estonia</item>
+        <item>+251    &amp; Ethiopia</item>
+        <item>+500    &amp; Falkland Islands</item>
+        <item>+298    &amp; Faroe Islands</item>
+        <item>+679    &amp; Fiji</item>
+        <item>+358    &amp; Finland</item>
+        <item>+33     &amp; France</item>
+        <item>+689    &amp; French Polynesia</item>
+        <item>+241    &amp; Gabon</item>
+        <item>+220    &amp; Gambia</item>
+        <item>+970    &amp; Gaza Strip</item>
+        <item>+995    &amp; Georgia</item>
+        <item>+49     &amp; Germany</item>
+        <item>+233    &amp; Ghana</item>
+        <item>+350    &amp; Gibraltar</item>
+        <item>+30     &amp; Greece</item>
+        <item>+299    &amp; Greenland</item>
+        <item>+1(473) &amp; Grenada</item>
+        <item>+1(671) &amp; Guam</item>
+        <item>+502    &amp; Guatemala</item>
+        <item>+224    &amp; Guinea</item>
+        <item>+245    &amp; Guinea-Bissau</item>
+        <item>+592    &amp; Guyana</item>
+        <item>+509    &amp; Haiti</item>
+        <item>+39     &amp; Holy See (Vatican City)</item>
+        <item>+504    &amp; Honduras</item>
+        <item>+852    &amp; Hong Kong</item>
+        <item>+36     &amp; Hungary</item>
+        <item>+354    &amp; Iceland</item>
+        <item>+91     &amp; India</item>
+        <item>+62     &amp; Indonesia</item>
+        <item>+98     &amp; Iran</item>
+        <item>+964    &amp; Iraq</item>
+        <item>+353    &amp; Ireland</item>
+        <item>+44     &amp; Isle of Man</item>
+        <item>+972    &amp; Israel</item>
+        <item>+39     &amp; Italy</item>
+        <item>+225    &amp; Ivory Coast</item>
+        <item>+1(876) &amp; Jamaica</item>
+        <item>+81     &amp; Japan</item>
+        <item>+962    &amp; Jordan</item>
+        <item>+7(317) &amp; Kazakhstan</item>
+        <item>+254    &amp; Kenya</item>
+        <item>+686    &amp; Kiribati</item>
+        <item>+381    &amp; Kosovo</item>
+        <item>+965    &amp; Kuwait</item>
+        <item>+996    &amp; Kyrgyzstan</item>
+        <item>+856    &amp; Laos</item>
+        <item>+371    &amp; Latvia</item>
+        <item>+961    &amp; Lebanon</item>
+        <item>+266    &amp; Lesotho</item>
+        <item>+231    &amp; Liberia</item>
+        <item>+218    &amp; Libya</item>
+        <item>+423    &amp; Liechtenstein</item>
+        <item>+370    &amp; Lithuania</item>
+        <item>+352    &amp; Luxembourg</item>
+        <item>+853    &amp; Macau</item>
+        <item>+389    &amp; Macedonia</item>
+        <item>+261    &amp; Madagascar</item>
+        <item>+265    &amp; Malawi</item>
+        <item>+60     &amp; Malaysia</item>
+        <item>+960    &amp; Maldives</item>
+        <item>+223    &amp; Mali</item>
+        <item>+356    &amp; Malta</item>
+        <item>+692    &amp; Marshall Islands</item>
+        <item>+222    &amp; Mauritania</item>
+        <item>+230    &amp; Mauritius</item>
+        <item>+262    &amp; Mayotte</item>
+        <item>+52     &amp; Mexico</item>
+        <item>+691    &amp; Micronesia</item>
+        <item>+373    &amp; Moldova</item>
+        <item>+377    &amp; Monaco</item>
+        <item>+976    &amp; Mongolia</item>
+        <item>+382    &amp; Montenegro</item>
+        <item>+1(664) &amp; Montserrat</item>
+        <item>+212    &amp; Morocco</item>
+        <item>+258    &amp; Mozambique</item>
+        <item>+264    &amp; Namibia</item>
+        <item>+674    &amp; Nauru</item>
+        <item>+977    &amp; Nepal</item>
+        <item>+31     &amp; Netherlands</item>
+        <item>+599    &amp; Netherlands Antilles</item>
+        <item>+687    &amp; New Caledonia</item>
+        <item>+64     &amp; New Zealand</item>
+        <item>+505    &amp; Nicaragua</item>
+        <item>+227    &amp; Niger</item>
+        <item>+234    &amp; Nigeria</item>
+        <item>+683    &amp; Niue</item>
+        <item>+672    &amp; Norfolk Island</item>
+        <item>+850    &amp; North Korea</item>
+        <item>+1(670) &amp; Northern Mariana Islands</item>
+        <item>+47     &amp; Norway</item>
+        <item>+968    &amp; Oman</item>
+        <item>+92     &amp; Pakistan</item>
+        <item>+680    &amp; Palau</item>
+        <item>+507    &amp; Panama</item>
+        <item>+675    &amp; Papua New Guinea</item>
+        <item>+595    &amp; Paraguay</item>
+        <item>+51     &amp; Peru</item>
+        <item>+63     &amp; Philippines</item>
+        <item>+870    &amp; Pitcairn Islands</item>
+        <item>+48     &amp; Poland</item>
+        <item>+351    &amp; Portugal</item>
+        <item>+974    &amp; Qatar</item>
+        <item>+242    &amp; Republic of the Congo</item>
+        <item>+40     &amp; Romania</item>
+        <item>+7      &amp; Russia</item>
+        <item>+250    &amp; Rwanda</item>
+        <item>+590    &amp; Saint Barthelemy</item>
+        <item>+290    &amp; Saint Helena</item>
+        <item>+1(869) &amp; Saint Kitts and Nevis</item>
+        <item>+1(758) &amp; Saint Lucia</item>
+        <item>+1(599) &amp; Saint Martin</item>
+        <item>+508    &amp; Saint Pierre and Miquelon</item>
+        <item>+1(784) &amp; Saint Vincent and the Grenadines</item>
+        <item>+685    &amp; Samoa</item>
+        <item>+378    &amp; San Marino</item>
+        <item>+239    &amp; Sao Tome and Principe</item>
+        <item>+966    &amp; Saudi Arabia</item>
+        <item>+221    &amp; Senegal</item>
+        <item>+381    &amp; Serbia</item>
+        <item>+248    &amp; Seychelles</item>
+        <item>+232    &amp; Sierra Leone</item>
+        <item>+65     &amp; Singapore</item>
+        <item>+421    &amp; Slovakia</item>
+        <item>+386    &amp; Slovenia</item>
+        <item>+677    &amp; Solomon Islands</item>
+        <item>+252    &amp;  Somalia</item>
+        <item>+27     &amp; South Africa</item>
+        <item>+82     &amp; South Korea</item>
+        <item>+34     &amp; Spain</item>
+        <item>+94     &amp; Sri Lanka</item>
+        <item>+249    &amp; Sudan</item>
+        <item>+597    &amp; Suriname</item>
+        <item>+268    &amp; Swaziland</item>
+        <item>+46     &amp; Sweden</item>
+        <item>+41     &amp; Switzerland</item>
+        <item>+963    &amp; Syria</item>
+        <item>+886    &amp; Taiwan</item>
+        <item>+992    &amp; Tajikistan</item>
+        <item>+255    &amp; Tanzania</item>
+        <item>+66     &amp; Thailand</item>
+        <item>+670    &amp; Timor-Leste</item>
+        <item>+228    &amp; Togo</item>
+        <item>+690    &amp; Tokelau</item>
+        <item>+676    &amp; Tonga</item>
+        <item>+1(868) &amp; Trinidad and Tobago</item>
+        <item>+216    &amp; Tunisia</item>
+        <item>+90     &amp; Turkey</item>
+        <item>+993    &amp; Turkmenistan</item>
+        <item>+1(649) &amp; Turks and Caicos Islands</item>
+        <item>+688    &amp; Tuvalu</item>
+        <item>+256    &amp; Uganda</item>
+        <item>+380    &amp; Ukraine</item>
+        <item>+971    &amp; United Arab Emirates</item>
+        <item>+44     &amp; United Kingdom</item>
+        <item>+1(325) &amp; United States</item>
+        <item>+598    &amp; Uruguay</item>
+        <item>+1(340) &amp; US Virgin Islands</item>
+        <item>+998    &amp; Uzbekistan</item>
+        <item>+678    &amp; Vanuatu</item>
+        <item>+58     &amp; Venezuela</item>
+        <item>+84     &amp; Vietnam</item>
+        <item>+681    &amp; Wallis and Futuna</item>
+        <item>+970    &amp; West Bank</item>
+        <item>+967    &amp; Yemen</item>
+        <item>+260    &amp; Zambia</item>
+        <item>+263    &amp; Zimbabwe</item>
+    </string-array>
+
+
+    <string name="server_error">Verbinding met de server error</string>
+    <string name="zerorating">Möchten Sie den Treiber mit null bewerten?</string>
+    <string name="message_alert_back">Ihre Registrierung ist noch nicht abgeschlossen. Wenn Sie zurückgehen, müssen Sie sich erneut anmelden, um die Registrierung abzuschließen. Wollen Sie zurückkehren?</string>
+    <string name="split_with">Geteilte Fahrt mit</string>
+    <string name="promo">Promo</string>
+    <string name="skip_favourite">Favoriten überspringen</string>
+    <string name="skip_popular">Beliebte überspringen</string>
+    <string name="capacity">Kapazität</string>
+    <string name="droploc_c">Drop Ort?</string>
+    <string name="tap_to_edit">Tippen Sie auf, um Ihren Abhol- oder Abfallort zu bearbeiten</string>
+    <string name="move_map_to">Verschieben Sie die Karte, um die Abholung einzustellen</string>
+    <string name="confirm_pickup_to">Bestätigen Sie Ihre Abholung bei</string>
+    <string name="confirm_pickup">Bestätigen Sie die Abholung</string>
+    <string name="skip_fav">Favoriten überspringen</string>
+    <string name="skip_drop_location">Skip Drop Ort</string>
+    <string name="date_change">Ihr Telefondatum ist ungenau! Passen Sie Ihre Uhr an und versuchen Sie es erneut.</string>
+    <string name="waiting_fare_">Wartezeit</string>
+
+
+
+    <string name="location_enable">Bitte aktivieren Sie Ihre GPS-Einstellungen und stellen Sie sicher, dass es in hoher Genauigkeit sein sollte.</string>
+    <string name="change_network">Bitte stellen Sie sicher, dass der Standortdienst in hoher Genauigkeit sein sollte</string>
+
+
+    <string name="getting_gps">Gps bekommen</string>
+    <string name="getting_auth">Authentifizieren</string>
+    <string name="loading_map">Karte wird geladen</string>
+    <string name="getting_gps_low">Wir versuchen gps in geringer Genauigkeit zu bekommen</string>
+
+
+
+    <!--Firebase-->
+
+    <string name="firebase_topic_name">android_passenger</string>
+
+
+</resources>

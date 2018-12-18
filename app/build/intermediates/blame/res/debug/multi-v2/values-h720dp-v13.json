@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/mobiweb/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2462b9a0760bf078e415cc10c6558132/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

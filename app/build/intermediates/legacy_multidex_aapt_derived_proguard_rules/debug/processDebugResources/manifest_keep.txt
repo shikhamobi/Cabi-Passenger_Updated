@@ -1,0 +1,2 @@
+# Referenced at /media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:45
+-keep class com.cabipassenger.util.AppController { <init>(...); }

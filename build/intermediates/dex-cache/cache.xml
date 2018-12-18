@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/db167457a79cb9010bcae52e6d5019071705719c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6744a722b558c994eb23504c7871807f3fa35533">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_99c99f1f0d8b41b6a955d47f3471f6abb0bb97a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/bd25bbc2be166f9bdf01780dd0ee2708ecf2a46d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a780da3c9e4c69d44622f72bdce71b260ed53e21">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5e4b59b68965b6c3e64232ff684e3545c7ed68d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/libs/AndroidUnusedResources1.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d6badae112c9a526b67c640a8c00c5f94c40c78c">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/2/AndroidUnusedResources1.6.2_706ee491577cf25174f26c9e068d307ddf1fe8ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/de7d508cffc4ac698408eea6f4f6a90476b3cbc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_efe0dd71a2fadf4cfca018bfa56323d8b8a3f656/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_03cd9285f0a6760307dba821b86b032bf7e67646/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/libs/jsoup-1.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="99351550d1fa2e8147319dbafd3f3a79d4f4c6e5">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.7.1_04b488b641d1fe4df2377e110569f0010d8e1049/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_96952cc9a23bb3e7450e4eb37f075612ab0350d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/3f691e81c97736adaa0032236d34a84b9dc2af21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="204f607419af8247cc1b2a61f50663c65f841c12">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de8353333fceb110cda2e35de771caee76f68a06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c9712c0ace25c14ba55c1f98741a0e6a6084d7b1">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.8.7-snapshot-with-sources_c091180dc003a50b4f485719a124b91fb05ccb3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/f58b2d3299a171041f71021738027b81031c8cb4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68fae2a5a75e9568ac322cb2f04ee8eef17928ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/177d00b5c269c8bad25a52e3f2a4c63757f01a4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="646439081688c43e04ec4aa7ba6915ddfdcc337f">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd0f7265dc23b73ccab0f250afdb38d8e960b95e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/libs/volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7eb90d3407943ccbac85ddb1406522baa36ef0ba">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_3eb8e02ab418dd9c5a91ed2c8370bc12ad0ae6d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/c1da1ee9bcb09bfe581d0eff1836db8f571de8a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b7006c3f8a6bd033672d9f538a35daff7618b4c7">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ef814389bf5adf96a6e4eb92490f7f2da235a78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_ea0a391430a0007fc8799b2fdff0018a8c74a49d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/5396df15a0c94362091998f8d16b4e1b85a02d6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e96b8e775b3353400fb790fc355b33d30a00bbe8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/1363d6b92174a57e2c831feba4cdd2d904463daf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2b0cb1d3587fcae786438f623e9131d4e3b9d35b">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a32079c2b5bd10b11c9a6fd793ce27267c226c24/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/e24d0620d12b2345679df1996b06eff181deb0ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6bd32b72098fecf44dcab3808a11e6b9fcb86b7b">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_101d21ee471198cf1395bbb07628754efde9fff9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/e722f90a95b7ed13a12a330d60521c426f013ffa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e0e5a9b3ee4099e949808427b98caf1935b59b97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/5f2f54907e3436886a47615a74d18e4e15e7194b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b1a9377553f36949950d90d77bc3c64f442cd291">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c7f4987c4cea4d235f544f71bb74424a36be3e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/b67395bb2b753c84acb14aa1984f9dcf4b7d6918/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="461929440e66685425a298693507f6fb27b0a872">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da9f16e226e392179bdb55090b414e1d1a54d14b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/libs/svg_android_1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9f7c80e87e9925b691875dc9388869d87515f7d2">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/2/svg_android_1.1_a6c9bff480b0549efcd137aa23750d2cd9202169/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/d815cdc31fee552a0bfac7f64976f06aff7973f1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7045152f3bd1870740b9bcb1cddff495e189774e">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fc1c60dfffed77948c36ad4801d35dac12c27eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.gradle/caches/modules-2/files-2.1/com.facebook.network.connectionclass/connectionclass/1.0.1/8d5e86c680119bfa1d7e1a365510b56764cb61b0/connectionclass-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8d5e86c680119bfa1d7e1a365510b56764cb61b0">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/connectionclass-1.0.1_f7766592ed504446ca4ec325e58d52816dbf17b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/9a1f38259cf402a0407fa7d1b13c6bc01a697bb1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f6e011916db951e72f3a2be65cfb864bf5408035">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb1b5e92f8578f04b5e90e35d921970b39706129/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_1f3febbdb6a320b4a4c3336dd8632ed0c00cf72d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/developer/.android/build-cache/83a92cd81d648c393778ba1139f8935ae8a8c351/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="005d20a198159b87f65812fc5c51b2d84c5eba0a">
+        <dex dex="/home/developer/Music/cabi/cabi_pass_git_new/cabi_Andr_Pass_git/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1148d44749185366bb3b7714182a9e76b5cc2667/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="Confirmation">تائیدیه</string>
+    <string name="Language">زبان</string>
+    <string name="Mins">مین</string>
+    <string name="OTP">OTP</string>
+    <string name="Tax">مالیات</string>
+    <string name="Trip_in_progress">سفر در حال پیشرفت</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"پیمایش به بالا"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تمام"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"مشاهده همه"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"انتخاب برنامه"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"خاموش"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"روشن"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"‎Alt+‎"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"‎Ctrl+‎"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"‎Function+‎"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"‎Meta+‎"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"‎Shift+‎"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"کلید فاصله"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"‎Sym+‎"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"منو+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"جستجو…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"پاک کردن عبارت جستجو"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"عبارت جستجو"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"جستجو"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ارسال عبارت جستجو"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"جستجوی گفتاری"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک‌گذاری با"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"اشتراک‌گذاری با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="about_sub_title">سوار از هر جایی \ n TaxiMobility</string>
+    <string name="above">در بالا</string>
+    <string name="accept">قبول کردن</string>
+    <string name="accepted">پذیرفته شده</string>
+    <string name="acctxt">ما فقط از ایمیل و شماره تلفن شما برای ارسال اعلان ها و رسید های سواری خود استفاده می کنیم.</string>
+    <string name="add">اضافه کردن</string>
+    <string name="add_card">افزودن کارت</string>
+    <string name="add_favourites">اضافه کردن مورد علاقه</string>
+    <string name="addcard">افزودن کارت جدید</string>
+    <string name="addmoney">اضافه کردن پول</string>
+    <string name="addmoney_braintree">Braintree</string>
+    <string name="addmoney_paypal">پی پال</string>
+    <string name="agree_the_terms_and_condition">لطفا با شرایط و ضوابط موافقت کنید</string>
+    <string name="airport">فرودگاه</string>
+    <string name="amount">میزان</string>
+    <string name="amount_between">مقدار بین بین را وارد کنید</string>
+    <string name="and_earn"> و کسب درآمد</string>
+    <string name="app_name">مسافر تاکسی مسافر</string>
+    <string name="app_nametm">Cabi</string>
+    <string name="apply">درخواست</string>
+    <string name="approx_fare">کرایه تقریبی</string>
+    <string name="avaiable_car">اتومبیل موجود است</string>
+    <string name="back">بازگشت</string>
+    <string name="base_fare">کرایه پایه</string>
+    <string name="below">در زیر</string>
+    <string name="book_a_taxi">کتاب تاکسی</string>
+    <string name="book_again">دوباره کتاب</string>
+    <string name="book_now">اکنون ثبت کن</string>
+    <string name="book_taxi">کتاب تاکسی</string>
+    <string name="bookedtaxi">شما تاکسی را رزرو کرده اید.</string>
+    <string name="businesscard">کارت کسب و کار</string>
+    <string name="call">زنگ زدن</string>
+    <string name="calldriver">آیا مطمئن هستید که می خواهید راننده را تماس بگیرید؟</string>
+    <string name="camera">دوربین</string>
+    <string name="cancel">لغو</string>
+    <string name="cancel_fare">لغو هزینه</string>
+    <string name="canceled_amount">مقدار لغو شده</string>
+    <string name="canceled_from">بدهی از:</string>
+    <string name="canceling_taxi">درخواست لغو</string>
+    <string name="cancelled">لغو شد</string>
+    <string name="capacity">ظرفیت</string>
+    <string name="card">کارت</string>
+    <string name="cardnumber">کارت XXXX XXXX XXXX XXXX</string>
+    <string name="cash">نقدی</string>
+    <string name="cash_card">پول نقد / کارت</string>
+    <string name="change_network">لطفا اطمینان حاصل کنید که سرویس محل سکونت باید با دقت بالا باشد.</string>
+    <string name="check_internet_connection">اتصال اینترنت خود را بررسی کنید</string>
+    <string name="choose_an_image">یک تصویر را انتخاب کنید</string>
+    <string name="choose_place">انتخاب نوع</string>
+    <string name="chpwd">تغییر رمز عبور</string>
+    <string name="comment">نظرات</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"فعال کردن"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏تا وقتی سرویس‌های Google Play را فعال نکنید، <ns1:g id="APP_NAME">%1$s</ns1:g> کار نمی‌کند."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏‫فعال کردن سرویس‌های Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"نصب"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏دریافت سرویس‌های Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏قابلیت دسترسی خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطا در خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"به‌روزرسانی"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏تاز مانی که سرویس‌های Google Play را به‌روزرسانی نکنید، <ns1:g id="APP_NAME">%1$s</ns1:g> اجرا نمی‌شود."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏‫به‌روزرسانی سرویس‌های Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> بدون سرویس‌های Google Play که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏نسخه جدید سرویس‌های Google Play نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"باز کردن در تلفن"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ورود به سیستم"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏ورود به سیستم با Google‎"</string>
+    <string name="completed">تکمیل شده</string>
+    <string name="confimpswd">رمز عبور را تأیید کنید</string>
+    <string name="confirm_booking">تأیید بعد از رزرو</string>
+    <string name="confirm_pickup">تایید تایپ کردن</string>
+    <string name="confirm_pickup_to">تأیید وانت خود را در</string>
+    <string name="confirmation_password_mismatch_with_password">رمز عبور و تایید رمز عبور مطابقت ندارد</string>
+    <string name="confirmdelete">آیا مطمئن هستید که می خواهید کارت را حذف کنید؟</string>
+    <string name="confirmlogout">آیا برای خارج شدن مطمئن هستید؟</string>
+    <string name="conpwd">رمز عبور را تأیید کنید</string>
+    <string name="contact_number">شماره تماس</string>
+    <string name="create_account">ایجاد یک حساب کاربری</string>
+    <string name="crop_image_menu_crop">محصول</string>
+    <string name="crop_image_menu_flip">تلنگر</string>
+    <string name="crop_image_menu_flip_horizontally">تلنگر به صورت افقی</string>
+    <string name="crop_image_menu_flip_vertically">پشتیبانی مشتری</string>
+    <string name="crop_image_menu_rotate_left">چرخش در جهت عقربه های ساعت</string>
+    <string name="crop_image_menu_rotate_right">چرخش</string>
+    <string name="cvv">CVV</string>
+    <string name="date_change">تاریخ تلفن شما نادرست است ساعت خود را تنظیم کرده و دوباره امتحان کنید</string>
+    <string name="defaultcard">تنظیم به عنوان پیشفرض</string>
+    <string name="defaultcard1">کارت پیش فرض</string>
+    <string name="delete_card">حذف کارت</string>
+    <string name="delete_fdrivers">آیا می خواهید راننده را از موارد دلخواه حذف کنید؟</string>
+    <string name="details">جزئیات</string>
+    <string name="dist_fare">کرایه تاکسی</string>
+    <string name="done">انجام شده</string>
+    <string name="download_from">دانلود برنامه از:</string>
+    <string name="driver_location">محل درایور</string>
+    <string name="droploc">رها کردن مکان</string>
+    <string name="droploc_c">مکان افت</string>
+    <string name="droplocation">رها کردن مکان</string>
+    <string name="droplocnew">محل خالی کردن (اختیاری)</string>
+    <string name="e_receipt">دریافت الکترونیکی</string>
+    <string name="edit">ویرایش</string>
+    <string name="edit_card">ویرایش کارت</string>
+    <string name="edit_favourites">ویرایش مورد علاقه ها</string>
+    <string name="email">پست الکترونیک</string>
+    <string name="enable">فعال کردن</string>
+    <string name="enter_amount">لطفا مقدار معتبر را وارد کنید</string>
+    <string name="enter_dest">قطره محل را وارد کنید</string>
+    <string name="enter_other_details">لطفا جزئیات مکان را انتخاب کنید</string>
+    <string name="enter_pickup">محل وانت را وارد کنید</string>
+    <string name="enter_promo_code">کد تبلیغاتی را وارد کنید</string>
+    <string name="enter_the_card_number">لطفا شماره کارت خود را وارد کنید</string>
+    <string name="enter_the_confirmation_password">لطفا رمز عبور تایید کنید</string>
+    <string name="enter_the_confirmation_phoneno">لطفا شماره تلفن همراه معتبر وارد کنید</string>
+    <string name="enter_the_cvv">لطفا CVV خود را وارد کنید</string>
+    <string name="enter_the_email">لطفا آدرس اییمیل خود را وارد نمایید</string>
+    <string name="enter_the_expiry_date">لطفا تاریخ انقضا را وارد کنید</string>
+    <string name="enter_the_first_name">لطفا نام خود را وارد کنید</string>
+    <string name="enter_the_last_name">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="enter_the_mobile_number">لطفا شماره تلفن خود را وارد کنید</string>
+    <string name="enter_the_new_password">لطفا رمز عبور جدید خود را وارد کنید</string>
+    <string name="enter_the_old_password">لطفا رمز ورود قدیمی خود را وارد کنید</string>
+    <string name="enter_the_password">لطفا رمز عبور خود را وارد کنید</string>
+    <string name="enter_the_valid_CVV">لطفا CVV معتبر را وارد کنید</string>
+    <string name="enter_the_valid_card_number">لطفا شماره کارت معتبر وارد کنید</string>
+    <string name="enter_the_valid_email">لطفا ایمیل معتبر وارد کنید</string>
+    <string name="enter_valid_comment">نظر معتبر را وارد کنید</string>
+    <string name="error">لطفا دوباره تلاش کنید</string>
+    <string name="estimate_fare">هزینه پیش بینی شده</string>
+    <string name="estimated_arrival">برآورد زمان ورود:</string>
+    <string name="eta">ETA</string>
+    <string name="even_charge">اتهامات شبانه</string>
+    <string name="excuse_me_brevity"> با کد ارجاع / تبلیغی ثبت نام کنید</string>
+    <string name="expiry">انقضا MM / YY</string>
+    <string name="fare2">123</string>
+    <string name="fare_estimate">برآورد هزینه</string>
+    <string name="fare_txt">کرایه</string>
+    <string name="fav_drop_location">دلخواه</string>
+    <string name="fav_pick_location">مورد علاقه ات را انتخاب کنید محل</string>
+    <string name="favoritedriver_">رانندگان مورد علاقه</string>
+    <string name="fblink">facebook.com/Taximobility</string>
+    <string name="fblogin">با فیس بوک وارد شوید</string>
+    <string name="fbsignup">ثبت نام با حساب فیسبوک</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"موارد دیگر"</string>
+    <string name="fetching_address">دریافت آدرس ...</string>
+    <string name="first">نام کوچک</string>
+    <string name="followtw">ما را در توییتر دنبال کنید</string>
+    <string name="forgotpassw">رمز عبور فراموش شده</string>
+    <string name="forgotpswd">رمز عبور فراموش شده</string>
+    <string name="gallery">آلبوم عکس</string>
+    <string name="getfare_estimate">دریافت تخمین هزینه</string>
+    <string name="getting_auth">تأیید اعتبار</string>
+    <string name="getting_gps">گرفتن GPS</string>
+    <string name="getting_gps_low">ما در حال تلاش برای گرفتن GPS در دقت پایین هستیم</string>
+    <string name="have_promocode">دارای یک کد تبلیغی؟</string>
+    <string name="headtitle_below">لورم ایپسوم به راحتی متن ساختاری چاپ و نشر را در بر میگیرد</string>
+    <string name="help">کمک</string>
+    <string name="hide">پنهان شدن</string>
+    <string name="home">خانه</string>
+    <string name="hour">ساعت</string>
+    <string name="inprogress">در انتظار</string>
+    <string name="intransit">سفر در حال پیشرفت</string>
+    <string name="invite_email">پست الکترونیک</string>
+    <string name="invite_fb">فیس بوک</string>
+    <string name="invite_frdrides">هنگامی که یک دوست با کد شما سوار می شود</string>
+    <string name="invite_friend">دعوت دوستان</string>
+    <string name="invite_sharevia">اشتراک از طریق</string>
+    <string name="invite_sms">پیامک</string>
+    <string name="invite_twitter">توییتر</string>
+    <string name="invite_whatsapp">WhatsApp</string>
+    <string name="invite_youearn">تو به دست آوردی</string>
+    <string name="jobref">شناسه سفر</string>
+    <string name="keyincode">کلید رمز در صورتی که به شما معرفی شده است</string>
+    <string name="landmark">برجسته</string>
+    <string name="last">نام خانوادگی</string>
+    <string name="legal">قانونی</string>
+    <string name="likefb">مثل ما در فیس بوک</string>
+    <string name="link">لینک ها</string>
+    <string name="loading_map">بارگیری نقشه</string>
+    <string name="location">محل</string>
+    <string name="location_disable">خدمات محل سکونت معلول</string>
+    <string name="location_enable">لطفا خدمات مکان خود را فعال کنید و مطمئن شوید که باید با دقت بالا باشد.</string>
+    <string name="max_size">حداکثر اندازه</string>
+    <string name="may_vary">این تخمین است کرایه واقعی ممکن است کمی بر اساس ترافیک یا تخفیف متفاوت باشد</string>
+    <string name="menu">فهرست</string>
+    <string name="menu_about">در باره</string>
+    <string name="menu_about_us">دربارهی ما</string>
+    <string name="menu_account">حساب</string>
+    <string name="menu_fare">کرایه</string>
+    <string name="menu_favourites">مورد علاقه</string>
+    <string name="menu_gettaxi">پیگیری تاکسی من</string>
+    <string name="menu_logout">خروج از سیستم</string>
+    <string name="menu_mybooking">رزرو من</string>
+    <string name="menu_payment">گزینه های پرداخت</string>
+    <string name="menu_profile">مشخصات</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_support">Atención al cliente</string>
+    <string name="message">پیام</string>
+    <string name="message_alert_back">ثبت نام شما هنوز کامل نشده است. اگر دوباره کلیک کنید، مجددا باید وارد شوید تا ثبت نام کامل شود. آیا می خواهید به عقب برگردید؟</string>
+    <string name="min">دقیقه</string>
+    <string name="min_fare">کرایه دقیقه</string>
+    <string name="min_trav">دقیقه سفر کرد</string>
+    <string name="minimum_fare">حداقل کرایه</string>
+    <string name="minimum_size">حداقل اندازه</string>
+    <string name="mins">حداقل (ها)</string>
+    <string name="mobile">سیار</string>
+    <string name="mobileno">شماره موبایل</string>
+    <string name="mode_selection_split">در صورت تمدید تقسیم هزینه، شما نمیتوانید نوع پرداخت را تغییر دهید</string>
+    <string name="move_map_to">نقشه را برای تنظیم وانت انتخاب کنید</string>
+    <string name="mybookings">رزرو من</string>
+    <string name="newpwd">رمز عبور جدید</string>
+    <string name="nit_fare">هزینه های شبانه</string>
+    <string name="nit_fare_to">به</string>
+    <string name="no">نه</string>
+    <string name="no_changes">بدون تغییر انجام شده است</string>
+    <string name="no_going_trip">در حال حاضر هیچ ردیابی در دسترس نیست!</string>
+    <string name="no_info">هیچ اطلاعاتی برای به روز رسانی وجود ندارد</string>
+    <string name="no_taxi">در حال حاضر تاکسی برای مدل انتخابی موجود نیست</string>
+    <string name="no_thanks">نه ممنون</string>
+    <string name="nocard">شما اطلاعات کارت اعتباری ندارید</string>
+    <string name="nodrivers">0 اتومبیل موجود است</string>
+    <string name="office">دفتر</string>
+    <string name="offtxt">خاموش</string>
+    <string name="ok">خوب</string>
+    <string name="old_password_mismatch_with_password">رمز عبور قدیمی مطابقت ندارد</string>
+    <string name="oldpwd">رمز عبور قدیمی</string>
+    <string name="on_going">در دست اقدام</string>
+    <string name="ontxt">بر</string>
+    <string name="or">یا</string>
+    <string name="others">دیگران</string>
+    <string name="paid_amt">مقدار پرداخت شده</string>
+    <string name="paid_by">پرداخت شده توسط</string>
+    <string name="pass_app_link">https://play.google.com/store/apps/details؟id=com.Taximobility</string>
+    <string name="password">کلمه عبور</string>
+    <string name="password_max_character">رمز عبور باید کمتر از 32 حرف باشد</string>
+    <string name="password_min_character">رمز عبور باید حداقل 6 کاراکتر داشته باشد</string>
+    <string name="past_booking">رزروهای گذشته</string>
+    <string name="payby_cash">پرداخت توسط نقدی؟</string>
+    <string name="payment">پرداخت</string>
+    <string name="payment_card">کارت اعتباری</string>
+    <string name="payment_cash">نقدی</string>
+    <string name="payment_complete">سفر کامل شده است</string>
+    <string name="payment_type">نوع پرداخت</string>
+    <string name="percentTotal">درصد کل باید 100 باشد</string>
+    <string name="permission_not_granted">قادر به انجام عمل انتخاب شده نیست زیرا مجوزها اعطا نمی شوند.</string>
+    <string name="personalcard">کارت شخصی</string>
+    <string name="picklocation">موقعیت مکانی</string>
+    <string name="picklocation_header">محل انتخاب</string>
+    <string name="picktime">زمان واریز</string>
+    <string name="place">محل</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"پاک کردن جستجو"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"جستجو"</string>
+    <string name="please_complete_registration">با این حال برای تکمیل روند ثبت نام ...</string>
+    <string name="please_select_image_from_valid_path">لطفا تصویر را از مسیر معتبر (پوشه گالری) انتخاب کنید</string>
+    <string name="please_select_your_salutation">لطفا سلامت خود را انتخاب کنید</string>
+    <string name="plzselect">لطفا انتخاب کنید</string>
+    <string name="policy">سیاست حفظ حریم خصوصی</string>
+    <string name="ppl">PPL</string>
+    <string name="pressBack">لطفا برای بردن دوباره بر روی BACK کلیک کنید</string>
+    <string name="profile_image">تصویر نمایه</string>
+    <string name="promo">تبلیغاتی</string>
+    <string name="promo_code">کد تبلیغاتی</string>
+    <string name="promo_code_empty"> شما هیچ گونه کد تبلیغی اعمال نمیکنید</string>
+    <string name="promotion">ترفیع</string>
+    <string name="rateapp">ما را در فروشگاه Play ارزیابی کنید</string>
+    <string name="ratedriver">راننده خود را ارزیابی کنید</string>
+    <string name="readterms"><u> من شرایط و ضوابط را مطالعه و درک کرده ام </u></string>
+    <string name="reason1">تاخیر 1.Cab</string>
+    <string name="reason2">محل رزرو در خطا</string>
+    <string name="reason3">تاخیر کابین / مسائل</string>
+    <string name="reason4">برنامه سفر 4.Changed</string>
+    <string name="reason5">5.Booking قرار داده شده در خطا</string>
+    <string name="reason6">6. دیگران</string>
+    <string name="reason_title">دلایل لغو</string>
+    <string name="recharge_money">شارژ پول</string>
+    <string name="referal">کد ارجاع / تبلیغی</string>
+    <string name="reg_cardname">نام بر روی کارت (اختیاری)</string>
+    <string name="reg_cardnumber">شماره کارت</string>
+    <string name="reg_cash">پرداخت توسط نقدی</string>
+    <string name="reg_cc">CVV</string>
+    <string name="reg_creditcard">پرداخت با کارت اعتباری</string>
+    <string name="reg_enter_referral">لطفا کد هدفی / تبلیغی خود را وارد کنید</string>
+    <string name="reg_entercardname">لطفا نام کارت خود را وارد کنید</string>
+    <string name="reg_enterprcode">لطفا کد تبلیغاتی خود را وارد کنید</string>
+    <string name="reg_expmonth">لطفا ماه منقضی را انتخاب کنید</string>
+    <string name="reg_expyear">لطفا سال انقضا را انتخاب کنید</string>
+    <string name="reg_month">MM</string>
+    <string name="reg_promocode">پرداخت با کد ارجاع</string>
+    <string name="reg_savecard">اطلاعات کارت را ذخیره کنید</string>
+    <string name="reg_terms"> <u> شرایط و ضوابط </u></string>
+    <string name="reg_year">YY</string>
+    <string name="register">ثبت نام</string>
+    <string name="rejected">رد شد</string>
+    <string name="request_taxi">درخواست تاکسی</string>
+    <string name="requestingtaxi">درخواست تاکسی</string>
+    <string name="resend">DIDN\'T دریافت کنید؟ ارسال مجدد</string>
+    <string name="ride_later">بعدا سوار شو</string>
+    <string name="salutation">احترام</string>
+    <string name="save">صرفه جویی</string>
+    <string msgid="146198913615257606" name="search_menu_title">"جستجو"</string>
+    <string name="securecard">اطلاعات کارت ذخیره شده ایمن است. این فقط برای پرداخت هزینه استفاده می شود.</string>
+    <string name="select_card_type">لطفا نوع کارت را انتخاب کنید</string>
+    <string name="select_payment">لطفا نوع پرداخت را انتخاب کنید</string>
+    <string name="select_the_drop_location">لطفا محل کشیدن را انتخاب کنید</string>
+    <string name="select_the_pickup_location">لطفا مکان انتخاب را انتخاب کنید</string>
+    <string name="sendmail">ارسال ایمیل</string>
+    <string name="server_con_error">لطفا دوباره تلاش کنید</string>
+    <string name="server_error">لطفا دوباره تلاش کنید</string>
+    <string name="settings">تنظیمات</string>
+    <string name="shareride">به اشتراک بگذارید</string>
+    <string name="show">نمایش</string>
+    <string name="signin">ورود</string>
+    <string name="signins">ورود</string>
+    <string name="site_name">Taximobility.com</string>
+    <string name="skip">حالا بروید</string>
+    <string name="skip_drop_location">پرش محل برش</string>
+    <string name="skip_fav">پرش مکان های مورد علاقه</string>
+    <string name="skip_favourite">پرش مورد علاقه</string>
+    <string name="skip_popular">پرش پر طرفدار</string>
+    <string name="split_">تقسیم کرایه</string>
+    <string name="split_status">تقسیم وضعیت کرایه</string>
+    <string name="split_with">تقسیم کرایه با</string>
+    <string name="split_with_friends">تقسیم هزینه با دوستان</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sub_total">زیر مجموع</string>
+    <string name="submit">ارسال</string>
+    <string name="success">موفقیت</string>
+    <string name="successfully_posted_post">s ارسال شد</string>
+    <string name="t_book">زمان رزرو</string>
+    <string name="t_distance">فاصله</string>
+    <string name="t_droploc">رها کردن مکان</string>
+    <string name="t_droptime">زمان را بردارید</string>
+    <string name="t_passname">نام راننده</string>
+    <string name="t_pickloc">انتخاب محل سکونت</string>
+    <string name="t_picktime">بلند کردن زمان</string>
+    <string name="t_tripduration">مدت زمان سفر</string>
+    <string name="tap_to_edit">ضربه بزنید تا واکر یا مکان خود را رها کنید</string>
+    <string name="taxi__empty">یا</string>
+    <string name="taxiname">تاکسی حرکتی</string>
+    <string name="termcond">شرایط   ؛ وضعیت</string>
+    <string name="thanksforflag">با تشکر از شما برای استفاده از TaxiMobility. سفر بعدی خود را حتی لذت بخش تر.</string>
+    <string name="there_is_no_email_client_installed">هیچ سرویس ایمیل وجود ندارد</string>
+    <string name="total">جمع</string>
+    <string name="total_aprox_fare">مجموع تقریبی پرواز:</string>
+    <string name="track_now">پیگیری کن</string>
+    <string name="trip_fare">کرایه تاکسی</string>
+    <string name="trip_id">شناسه سفر</string>
+    <string name="tripdetail">جزئیات سفر</string>
+    <string name="try_again">دوباره امتحان کنید</string>
+    <string name="twlink">twitter.com/Taximobility</string>
+    <string name="type_your_comment">نظرات خود را تایپ کنید</string>
+    <string name="up_coming">آینده</string>
+    <string name="ur_approx_fare">کرایه تقریبی:</string>
+    <string name="userphno">شماره موبایل کاربر</string>
+    <string name="vehicle_dist">فاصله خودرو فاصله</string>
+    <string name="vehicle_min">هزینه حمل و نقل خودرو</string>
+    <string name="vehicle_wait">زمان انتظار خودرو</string>
+    <string name="verify_email">تأیید کد</string>
+    <string name="verify_enter_code">یک کد چهار عدد صحت تأییدیه فرستاده شده است</string>
+    <string name="verify_resend">دوباره ارسال OTP</string>
+    <string name="verify_valid_code">آه، ضربه محکم و ناگهانی! آیا می توانیم دوباره امتحان کنیم؟</string>
+    <string name="version_up_later">بعد</string>
+    <string name="version_up_message">یک نسخه جدید از TaxiMobility موجود است. این نسخه دیگر پشتیبانی نمی شود.</string>
+    <string name="version_up_now">به روز رسانی کن</string>
+    <string name="version_up_title">به روز رسانی</string>
+    <string name="waiting">در انتظار</string>
+    <string name="waiting_fare">انتظار می رود که کرایه در ساعت باشد</string>
+    <string name="waiting_fare_">در انتظار هزینه</string>
+    <string name="waiting_time">هزینه زمان انتظار</string>
+    <string name="wallet">کیف پول</string>
+    <string name="wallet_amt">مقدار کیف پول</string>
+    <string name="walletmsg">بدون نقدی و بدون هیچ زحمتی سواری با کیف پول TaxiMobility</string>
+    <string name="yes">بله</string>
+    <string name="you">شما</string>
+    <string name="your_card_expiry">کارت شما منقضی شده است</string>
+    <string name="z_split_charged">سوار شدن شما متهم خواهد شد</string>
+    <string name="z_split_fare_with">تقسیم هزینه با</string>
+    <string name="zerofee">پرداخت بدون هزینه از طریق کارت</string>
+    <string name="zerorating">آیا می خواهید نظرات خود را بدون رتبه بندی ارسال کنید؟</string>
+</resources>

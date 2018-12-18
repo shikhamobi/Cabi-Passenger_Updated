@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_contain"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/semi_transparent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/include_headler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/request_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="55dp"
+                android:gravity="center"
+                android:text="@string/requestingtaxi"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <com.cabipassenger.util.DotsProgressBar
+                android:id="@+id/dotsProgressBar"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="55dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:paddingTop="@dimen/activity_vertical_margin" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/ReqcancelTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/button_acceptnew"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_color_black_to_white" />
+    </RelativeLayout>
+
+</LinearLayout>

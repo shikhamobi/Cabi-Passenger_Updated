@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/mobiweb/de22c4b4-c93e-47d9-ac91-ab1df3de8a70/WorkSpace/cabi backup/cabi_Andr_Pass(18 Dec 2018)/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/home/mobiweb/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.2.aar/8d073a20114657405ee1360315af1cb7/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    }
+                }
+            ]
+        }
+    ]
+}
